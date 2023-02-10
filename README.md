@@ -34,6 +34,7 @@ VSD Mixed-signal PD Research Program
     $ pip install -v -e .[test] --no-build-isolation
     $ pip install -v --no-build-isolation -e . --no-deps --install-option='-DBUILD_TESTING=ON'
     ```
+    for more info refer:[https://github.com/sanampudig/OpenFASoC/tree/main/AUXCELL](https://github.com/sanampudig/OpenFASoC/tree/main/AUXCELL)
  ## Magic 
  -  Magic is a Open-Source Layout tool<br/>
       
@@ -82,8 +83,8 @@ VSD Mixed-signal PD Research Program
      ```
   -  Incase of any errors refer:[http://opencircuitdesign.com/netgen/index.html](http://opencircuitdesign.com/netgen/index.html)<br/>
   # open_pdks
-  - Open_PDKs is distributed with files that support the Google/SkyWater sky130 open process description [https://github.com/google/skywater-pdk]  (https://github.com/google/skywater-pdk)<br/>.
-  Open_PDKs will set up    an environment for using the SkyWater sky130 process with open-source EDA tools and tool flows such   as magic, qflow, openlane, netgen,    klayout, etc.
+  - Open_PDKs is distributed with files that support the Google/SkyWater sky130 open process description [https://github.com/google/skywater-pdk]     (https://github.com/google/skywater-pdk)<br/>.
+  Open_PDKs will set up    an environment for using the SkyWater sky130 process with open-source EDA tools and tool flows such   as magic, qflow, openlane, netgen,       klayout, etc.
   ```
   $  git clone git://opencircuitdesign.com/open_pdks
   $  open_pdks

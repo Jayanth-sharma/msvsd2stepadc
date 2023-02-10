@@ -47,7 +47,9 @@ VSD Mixed-signal PD Research Program
          $   sudo make install<br/>    
          
          ```
+         
   - For more info refer: [http://opencircuitdesign.com/magic/index.html](http://opencircuitdesign.com/magic/index.html)<br/>
+   
   ## Ngspice
    - Ngspice is a Opensource Simulator for Electrical and Electronic Circuits<br/>
      
@@ -69,7 +71,18 @@ VSD Mixed-signal PD Research Program
      
      ```
      $ sudo apt-get update
-     $ sudo apt-get install xterm
+     
+     # Install Xaw library
+     $  sudo apt-get  install libxaw7-dev
+     # Install xterm
+     $  sudo apt-get  install xterm
+     # Install bison
+     $  sudo apt-get  install bison
+     # Install flex
+     $  sudo apt-get install flex
+     # Install readlines library
+     $ sudo apt-get install libreadlines6-dev
+   
      ```
   # Netgen
   -  Netgen is a Open Source Tool with Compares Netlists,a Process is Called as LVS,Which stands for Layout vs Schematic.<br/>
@@ -83,6 +96,9 @@ VSD Mixed-signal PD Research Program
      $  sudo make install
      ```
   -  Incase of any errors refer:[http://opencircuitdesign.com/netgen/index.html](http://opencircuitdesign.com/netgen/index.html)<br/>
+    ```
+    
+    ```
   # open_pdks
   - Open_PDKs is distributed with files that support the Google/SkyWater sky130 open process description [https://github.com/google/skywater-pdk]     (https://github.com/google/skywater-pdk)<br/>.
   Open_PDKs will set up    an environment for using the SkyWater sky130 process with open-source EDA tools and tool flows such   as magic, qflow, openlane, netgen,       klayout, etc.
@@ -93,6 +109,7 @@ VSD Mixed-signal PD Research Program
   $  make
   $  sudo make install
   ```
+  
 # Tools Unberstanding and Usage
 - First lets create a working Directory for this.
    ```

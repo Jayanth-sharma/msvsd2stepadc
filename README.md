@@ -60,7 +60,7 @@ VSD Mixed-signal PD Research Program
         $ tar -zxvf ngspice-38.tar.gz
         $ cd ngspice-38
         $ mkdir release
-        $ ../configure  --with-x --with-readline=yes --disable-debug
+        $ 
         $ cd release
         $ ../configure  --with-x --with-readline=yes --disable-debug
         $ make

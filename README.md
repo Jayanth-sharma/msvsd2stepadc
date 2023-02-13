@@ -41,10 +41,10 @@ VSD Mixed-signal PD Research Program
       
          ```
          $  git clone git://opencircuitdesign.com/magic 
-         $  cd magic<br/>
-         $         ./configure   <br/>
-         $   make<br/>
-         $   sudo make install<br/>    
+         $  cd magic
+         $         ./configure   
+         $   make
+         $   sudo make install  
          
          ```
          

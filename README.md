@@ -134,7 +134,7 @@ VSD Mixed-signal PD Research Program
  - ngspice
  
  ## Pre-layout Inverter using Xschem
-    To combined Sky130 library file with xschem run the following commands.
+ - To combined Sky130 library file with xschem run the following commands.
     
      `xschem --rcfile /usr/local/share/pdk/sky130A/libs.tech/xschem/xschemrc`
     

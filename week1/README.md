@@ -149,12 +149,13 @@
   A Inverter Schematic is made by placing compoents from the open_pdk library.<br/>
  ![inv_dc_xschem](https://user-images.githubusercontent.com/53760504/219603848-f409557d-9ab8-4c94-80f4-40c76a387098.jpeg)
   From the VTC Graph of Inverter the Following Parameters are Measured:<br/>
-   Vtrip Voltage = 0.845 <br/>
+   Vtrip Voltage(Vtp)= 0.845 <br/>
    VOL=  0.09  VIH= 0.92 <br/>
    VOH= 1.74   VIL= 0.71 <br/>
 
- - Noise Margin : NMl=`Vil-Vol`=0.71-0.09=0.62 <br/>
-                  NMh=`Voh-vih`=1.74-0.92=0.82 <br/>
+ - Noise Margin : <br/>
+   NMl=`Vil-Vol`=0.71-0.09=0.62 <br/>
+   NMh=`Voh-vih`=1.74-0.92=0.82 <br/>
  ## Transient Analysis of Inverter 
    ![inv_tran_xschem](https://user-images.githubusercontent.com/53760504/219605652-aa7c365a-3951-4969-b77a-0bdd9a1d4f69.jpeg)
    
@@ -216,9 +217,9 @@
    
    | Transient Analysis    | Pre-layout       | Post-layout |
    | ----------------------| ---------------  |------------ |
-   | Propagation Delay     | ![tpd_prelayout](https://user-images.githubusercontent.com/53760504/219617505-9af088a4-b0f8-4c85-bd9b-9c7452641871.png)    |![tpd](https://user-images.githubusercontent.com/53760504/219613962-8ef5252e-6c53-4b53-9427-3b9c813976d9.png)|
-   |Rising Propagation Delay|![prelayout_tpdr](https://user-images.githubusercontent.com/53760504/219614843-5249bd0a-77ac-4bc5-a8ef-000eb5c9c990.png)|      ![tpdr_postlayout](https://user-images.githubusercontent.com/53760504/219614495-d2ecd86b-61ab-49e3-94ec-45ba6754e705.png)|
-   | Falling Propagation  Delay |![prelayout_tpdf](https://user-images.githubusercontent.com/53760504/219615596-d220d5aa-3b9e-4d81-b27c-a71a56008bd4.png)|![postlayout_tpdf](https://user-images.githubusercontent.com/53760504/219614734-04772549-4820-457d-95e7-0229ac3a7929.png)|
+   | Propagation Delay(Tpd)     | ![tpd_prelayout](https://user-images.githubusercontent.com/53760504/219617505-9af088a4-b0f8-4c85-bd9b-9c7452641871.png)    |![tpd](https://user-images.githubusercontent.com/53760504/219613962-8ef5252e-6c53-4b53-9427-3b9c813976d9.png)|
+   |Rising Propagation Delay(Tpdr)|![prelayout_tpdr](https://user-images.githubusercontent.com/53760504/219614843-5249bd0a-77ac-4bc5-a8ef-000eb5c9c990.png)|![tpdr_postlayout](https://user-images.githubusercontent.com/53760504/219614495-d2ecd86b-61ab-49e3-94ec-45ba6754e705.png)|
+   | Falling Propagation  Delay(Tpdf) |![prelayout_tpdf](https://user-images.githubusercontent.com/53760504/219615596-d220d5aa-3b9e-4d81-b27c-a71a56008bd4.png)|![postlayout_tpdf](https://user-images.githubusercontent.com/53760504/219614734-04772549-4820-457d-95e7-0229ac3a7929.png)|
  
 ## Prelayout Analysis of Complex Function using General PDKs:
 - 

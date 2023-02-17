@@ -3,13 +3,17 @@ VSD Mixed-signal PD Research Program
 
 # Week0
 
-## A Warmup and Getting Started with the flow with install of Tools and Use.<br/>
-   Align<br/>
-   magic<br/>
-   ngspice<br/>
-   netgen<br/>
-   open_pdks<br/>
-   xshem<br/>
+- A Warmup and Getting Started with the flow with install of Tools and Use.<br/>
+# Setting up Tools
+| First Header  | Second Header   |
+| ------------- | -------------   |
+| Align         | Netlist to GDS  |
+| Magic         | Layout Editor   |
+| ngspice       | SPICE Simulator |
+| netgen        | LVS,Netlist Generator |
+| open_pdks     | Sky130 library |
+| xschem        | Schematic Editor |
+
  # Installation
  ## Align 
  - ALIGN (Analog Layout, Intelligently Generated from Netlists) is to automatically translate an unannotated (or partially annotated) SPICE netlist of an analog          circuit to a GDSII layout. 
@@ -112,8 +116,8 @@ VSD Mixed-signal PD Research Program
 - First lets create a working Directory for this.
    ```
    $ mkdir week0
-   $ mkdir inv_lab
-   $ cd inv_lab
+   $ mkdir designs
+   $ cd designs
    $ mkdir mag
    $ mkdir netgen
    $ mkdir xschem
@@ -127,15 +131,13 @@ VSD Mixed-signal PD Research Program
   ```
  - magic Check
  - netgen
-  
  - xschem check 
-  
-
  - ngspice
  
  ## Pre-layout Inverter using Xschem
  - To combined Sky130 library file with xschem run the following commands.
     
      `xschem --rcfile /usr/local/share/pdk/sky130A/libs.tech/xschem/xschemrc`
+     
     
 

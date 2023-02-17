@@ -1,5 +1,12 @@
 # Week0
-
+| Section No.| Action Item                     |    Status    |
+| -----------| ------------------------------  | ------------ |
+|        1   |Install Virtual Box,Ubuntu 20.04 |:heavy_check_mark:|
+|        2   |Install Xschem,Magic,open_pdks,netgen|:heavy_check_mark:|
+|        3   |Prelayout Simulation of Inverter using Xschem,Ngspice |:heavy_check_mark:|
+|        4   |Postlayout Simulation of Inverter using Magic,Ngspice |:heavy_check_mark:|
+|        5   |Comparing Postlayout vs Prelayout of Inverter         |:heavy_check_mark:| 
+|        6   |Design of Pre,Postlayout Simulations of Complex Function using General PDKs|:o:|
 - A Warmup and Getting Started with the flow with install of Tools and Use.<br/>
 # Setting up Tools
 | First Header  | Second Header   |
@@ -212,5 +219,6 @@
    |Rising Propagation Delay|![prelayout_tpdr](https://user-images.githubusercontent.com/53760504/219614843-5249bd0a-77ac-4bc5-a8ef-000eb5c9c990.png)|      ![tpdr_postlayout](https://user-images.githubusercontent.com/53760504/219614495-d2ecd86b-61ab-49e3-94ec-45ba6754e705.png)|
    | Falling Propagation  Delay |![prelayout_tpdf](https://user-images.githubusercontent.com/53760504/219615596-d220d5aa-3b9e-4d81-b27c-a71a56008bd4.png)|![postlayout_tpdf](https://user-images.githubusercontent.com/53760504/219614734-04772549-4820-457d-95e7-0229ac3a7929.png)|
  
-
+## Prelayout Analysis of Complex Function using General PDKs:
+- 
 

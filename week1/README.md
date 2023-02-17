@@ -150,11 +150,11 @@
  ![inv_dc_xschem](https://user-images.githubusercontent.com/53760504/219603848-f409557d-9ab8-4c94-80f4-40c76a387098.jpeg)
   From the VTC Graph of Inverter the Following Parameters are Measured:<br/>
    Vtrip Voltage = 0.845 <br/>
-   VOL=  0.09  VIH= 0.92
-   VOH= 1.74   VIL= 0.71
+   VOL=  0.09  VIH= 0.92 <br/>
+   VOH= 1.74   VIL= 0.71 <br/>
 
- - Noise Margin : NMl=`Vil-Vol`=0.71-0.09=0.62
-                  NMh=`Voh-vih`=1.74-0.92=0.82
+ - Noise Margin : NMl=`Vil-Vol`=0.71-0.09=0.62 <br/>
+                  NMh=`Voh-vih`=1.74-0.92=0.82 <br/>
  ## Transient Analysis of Inverter 
    ![inv_tran_xschem](https://user-images.githubusercontent.com/53760504/219605652-aa7c365a-3951-4969-b77a-0bdd9a1d4f69.jpeg)
    

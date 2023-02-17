@@ -187,15 +187,16 @@
   ```
  ##  Post-Layout Transient Analysis of Inverter:
  
-    To Run The post-layout Simulation of Inverter use the command.`ngspice <file_name>.spice` <br/>
+    To Run The post-layout Simulation of Inverter use the command.<br/>
+    `ngspice <file_name>.spice` 
    ![postlayout_inv](https://user-images.githubusercontent.com/53760504/219611334-5cd7df4c-9db6-4472-a303-49296cdf7a89.png)
 ## Comparison between Prelayout vs Postlayout Charateristic of Inverter.
 -  Noise Margin Analysis of Prelayout vs Postlayout <br/>
     
-  | Pre-layout    | Postlayout    |
-  | ------------- | ------------- |
-  
-  | VOL =  VOH= <br/> VIL = VIH = <br> Noise Margin =         |   VOL=  VOH= <br/> VIL= VIH= <br/> Noise Margin = <br/> |
+  | Pre-layout                                                       | Postlayout                                                                         |
+  | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+  |![img](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/nm_prelayout.png)|![img](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/dc_postlayout.png)|
+   | VOL =  VOH= <br/> VIL = VIH = <br> Noise Margin = |VOL=  VOH= <br/> VIL= VIH= <br/> Noise Margin = |
 
 
 -  For our Convencience of Test-bench the Pulse timing parameters are choosen as:<br/>

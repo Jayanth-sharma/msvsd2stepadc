@@ -7,7 +7,7 @@
 |        4   |Postlayout Simulation of Inverter using Magic,Ngspice |:heavy_check_mark:|
 |        5   |Comparing Postlayout vs Prelayout of Inverter         |:heavy_check_mark:| 
 |        6   |Design of Pre,Postlayout Simulations of Complex Function using General PDKs|:o:|
-- A Warmup and Getting Started with the flow with install of Tools and Use.<br/>
+- A Warmup and Getting Started with the flow with installation of Tools and Usage<br/>
 # Setting up Tools
 | First Header  | Second Header   |
 | ------------- | -------------   |

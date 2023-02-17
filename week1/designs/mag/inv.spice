@@ -1,0 +1,21 @@
+* SPICE3 file created from inv.ext - technology: min2
+
+M1000 out in gnd gnd nmos w=0.9u l=0.18u
++  ad=0.405p pd=2.7u as=0.405p ps=2.7u
+M1001 out in vdd vdd pmos w=0.9u l=0.18u
++  ad=0.405p pd=2.7u as=0.405p ps=2.7u
+C0 vdd in 0.00fF
+C1 in out 0.00fF
+C2 out gnd 3.08fF 
+C3 in gnd 0.27fF 
+C4 vdd gnd 3.40fF
+
+vdd vdd gnd 1.8
+Vin in gnd 0 pulse 0 1.8 0 10p 10p 2n 4n
+
+.cp
+.tran 10p 4n
+
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.save all
+.end

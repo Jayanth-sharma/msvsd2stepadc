@@ -1,0 +1,129 @@
+magic
+tech sky130A
+timestamp 1676534689
+<< nwell >>
+rect -105 180 80 420
+<< nmos >>
+rect 0 0 15 100
+<< pmos >>
+rect 0 200 15 400
+<< ndiff >>
+rect -45 85 0 100
+rect -45 15 -35 85
+rect -15 15 0 85
+rect -45 0 0 15
+rect 15 85 60 100
+rect 15 15 30 85
+rect 50 15 60 85
+rect 15 0 60 15
+<< pdiff >>
+rect -45 385 0 400
+rect -45 315 -35 385
+rect -15 315 0 385
+rect -45 285 0 315
+rect -45 215 -35 285
+rect -15 215 0 285
+rect -45 200 0 215
+rect 15 385 60 400
+rect 15 315 30 385
+rect 50 315 60 385
+rect 15 285 60 315
+rect 15 215 30 285
+rect 50 215 60 285
+rect 15 200 60 215
+<< ndiffc >>
+rect -35 15 -15 85
+rect 30 15 50 85
+<< pdiffc >>
+rect -35 315 -15 385
+rect -35 215 -15 285
+rect 30 315 50 385
+rect 30 215 50 285
+<< psubdiff >>
+rect -85 85 -45 100
+rect -85 15 -75 85
+rect -55 15 -45 85
+rect -85 0 -45 15
+<< nsubdiff >>
+rect -85 385 -45 400
+rect -85 315 -75 385
+rect -55 315 -45 385
+rect -85 285 -45 315
+rect -85 215 -75 285
+rect -55 215 -45 285
+rect -85 200 -45 215
+<< psubdiffcont >>
+rect -75 15 -55 85
+<< nsubdiffcont >>
+rect -75 315 -55 385
+rect -75 215 -55 285
+<< poly >>
+rect 0 400 15 415
+rect 0 180 15 200
+rect -45 175 15 180
+rect -45 155 -35 175
+rect -10 155 15 175
+rect -45 150 15 155
+rect 0 100 15 150
+rect 0 -15 15 0
+<< polycont >>
+rect -35 155 -10 175
+<< locali >>
+rect -85 390 -60 405
+rect -85 385 -5 390
+rect -85 315 -75 385
+rect -55 315 -35 385
+rect -15 315 -5 385
+rect -85 310 -5 315
+rect 20 385 60 390
+rect 20 315 30 385
+rect 50 315 60 385
+rect 20 310 60 315
+rect -85 285 -5 290
+rect -85 215 -75 285
+rect -55 215 -35 285
+rect -15 215 -5 285
+rect -85 210 -5 215
+rect 20 285 60 290
+rect 20 215 30 285
+rect 50 215 60 285
+rect 20 210 60 215
+rect -105 175 0 180
+rect -105 155 -35 175
+rect -10 155 0 175
+rect -105 150 0 155
+rect 25 170 50 210
+rect 25 135 70 170
+rect 25 90 50 135
+rect -85 85 -5 90
+rect -85 15 -75 85
+rect -55 15 -35 85
+rect -15 15 -5 85
+rect -85 10 -5 15
+rect 20 85 60 90
+rect 20 15 30 85
+rect 50 15 60 85
+rect 20 10 60 15
+rect -85 -20 -65 10
+<< viali >>
+rect -85 405 -60 425
+rect -85 -40 -65 -20
+<< metal1 >>
+rect -105 425 80 430
+rect -105 405 -85 425
+rect -60 405 80 425
+rect -105 400 80 405
+rect -105 -20 80 -15
+rect -105 -40 -85 -20
+rect -65 -40 80 -20
+rect -105 -45 80 -40
+<< labels >>
+rlabel space 60 130 80 175 7 Vout
+port 1 w
+rlabel space -110 135 -90 180 3 Vin
+port 2 e
+rlabel space 65 400 85 445 7 Vdd
+port 3 w
+rlabel space 65 -50 85 -5 7 gnd
+port 4 w
+<< end >>

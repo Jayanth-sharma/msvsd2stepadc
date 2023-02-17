@@ -1,0 +1,14 @@
+timestamp 1465277592
+version 8.3
+tech min2
+style lambda=0.09
+scale 1000 1000 4.5
+resistclasses 8000 8000 900000 900000 7400 80
+node "out" 33 3.08165 26 -32 ndiff 200 60 200 60 0 0 0 0 0 0 576 160
+node "in" 185 0.273573 -2 -10 pc 0 0 0 0 0 0 0 0 432 216 96 40
+node "vdd!" 1031 3.39715 -2 0 nw 192 96 200 60 2808 212 0 0 0 0 608 168
+substrate "gnd!" 0 0 4 -56 poc 200 60 192 96 0 0 0 0 0 0 608 168
+cap "in" "out" 0.00106306
+cap "vdd!" "in" 0.000245337
+device mosfet nmos 22 -32 23 -31 4 20 "gnd!" "in" 8 0 "gnd!" 20 0 "out" 20 0
+device mosfet pmos 22 12 23 13 4 20 "vdd!" "in" 8 0 "vdd!" 20 0 "out" 20 0

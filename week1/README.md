@@ -129,6 +129,7 @@
  - magic Check
    ![alt text]()
  - netgen
+    ![alt text](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/ngspice_check.png)
  - xschem check 
  - ngspice
     ![alt text](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/ngspice_check.png)

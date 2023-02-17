@@ -1,7 +1,7 @@
 # msvsd2stepadc
 # VSD Mixed-signal PD Research Program
 ## Work in Progress
-- Finishs by April-14-2023
+- Finishes by April-14-2023
  Table of Content:
  
   

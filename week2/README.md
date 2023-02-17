@@ -51,7 +51,7 @@
    `schematic2layout.py <NETLIST_DIR> -p <PDK_DIR> -c`
  - Running a EXAMPLE:
    `schematic2layout.py ../ALIGN-pdk-sky130/examples/five_transistor_ota -p ../pdks/SKY130_PDK/`
- -   Now open the .lef,.gds files in klayout <br/>
+ -   Now open the .lef  ,  .gds files in klayout <br/>
                   GDS File      |   LEF File
      :-------------------------:|:-------------------------:
      ![](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week2/Images/ota_5t_gds.png)  |  ![](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week2/Images/ota_5t_lef.png)

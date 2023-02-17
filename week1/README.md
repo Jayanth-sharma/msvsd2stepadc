@@ -127,10 +127,11 @@
    $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl 
   ```
  - magic Check
+   ![alt text]()
  - netgen
  - xschem check 
  - ngspice
- 
+    ![alt text](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/ngspice_check.png)
  ## Pre-layout Inverter using Xschem
  - To combined Sky130 library file with xschem run the following commands.
     

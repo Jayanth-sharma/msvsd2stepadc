@@ -126,17 +126,90 @@
    $ cd ../netgen
    $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl 
   ```
- - magic Check
-   ![alt text]()
- - netgen
-    ![alt text](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/ngspice_check.png)
- - xschem check 
- - ngspice
+ - magic Check <br/>
+   ![alt text](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/magic_checj.jpeg)
+ - netgen <br/>
+    ![alt text](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/netgen_check.png)
+ - xschem check <br/> 
+    ![alt text](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/xschem_check.png)
+ - ngspice <br/>
     ![alt text](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/ngspice_check.png)
  ## Pre-layout Inverter using Xschem
  - To combined Sky130 library file with xschem run the following commands.
     
      `xschem --rcfile /usr/local/share/pdk/sky130A/libs.tech/xschem/xschemrc`
-     
+ ## DC Analysis of Inverter <br/>
+  A Inverter Schematic is made by placing compoents from the open_pdk library.
+ ![inv_dc_xschem](https://user-images.githubusercontent.com/53760504/219603848-f409557d-9ab8-4c94-80f4-40c76a387098.jpeg)
+  From the VTC Graph of Inverter the Following Parameters are Measured:
+   Vtrip Voltage = 0.845
+   VOL=      VIH=
+   VOH=      VIL=
+
+ - Noise Margin :
+ ## Transient Analysis of Inverter 
+   ![inv_tran_xschem](https://user-images.githubusercontent.com/53760504/219605652-aa7c365a-3951-4969-b77a-0bdd9a1d4f69.jpeg)
+   
+   ![trans_prelayout](https://user-images.githubusercontent.com/53760504/219605949-9715daa7-97bc-49c0-b40e-e6a2c03986b1.png)
+   
+# Post-Layout of Inverter.
+-  Manual Layout of Inverter.<br/>
+  ![inverter_manual_layout](https://user-images.githubusercontent.com/53760504/219607347-8b52eb8f-1376-4a23-93ff-d00f9b71731a.jpeg)
+- After having a DRC free layout.Goto Tkcon.tcl command window to extract spice<br/>
+  ```
+  extract do local
+  extract all
+  ```
+  extract do local- to save .ext and extractions to the local directory.<br/>
+  extract all- to extract all files from magic <br/>
+  ```
+  ext2spice lvs
+  ext2spice cthresh 0 rthresh 0
+  ext2spice 
+  ```
+  Extracted Netlist after Modifications <br/>
+  ```
+   .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice  tt
+   X0 Vout Vin Vdd Vdd sky130_fd_pr__pfet_01v8 ad=9e+11p pd=4.9e+06u as=9e+11p ps=4.9e+06u w=2e+06u l=150000u
+   X1 Vout Vin gnd gnd sky130_fd_pr__nfet_01v8 ad=4.5e+11p pd=2.9e+06u as=4.5e+11p ps=2.9e+06u w=1e+06u l=150000u
+
+
+   Vin Vin GND pulse(0 1.8 1n 1n 1n 4n 8n)
+   V2 Vdd GND 1.8
+
+
+   .tran 0.01n 60n
+   .control
+   run
+   .endc
+
+   .end
+  ```
+ ##  Post-Layout Transient Analysis of Inverter:
+ 
+    To Run The post-layout Simulation of Inverter use the command.`ngspice <file_name>.spice` <br/>
+   ![postlayout_inv](https://user-images.githubusercontent.com/53760504/219611334-5cd7df4c-9db6-4472-a303-49296cdf7a89.png)
+## Comparison between Prelayout vs Postlayout Charateristic of Inverter.
+-  Noise Margin Analysis of Prelayout vs Postlayout <br/>
     
+  | Pre-layout    | Postlayout    |
+  | ------------- | ------------- |
+  
+  | VOL =  VOH= <br/> VIL = VIH = <br> Noise Margin =         |   VOL=  VOH= <br/> VIL= VIH= <br/> Noise Margin = <br/> |
+
+
+-  For our Convencience of Test-bench the Pulse timing parameters are choosen as:<br/>
+   Rise time :  1 ns <br/>
+   Fall time :  1 ns <br/>
+   On-Time   :  4 ns <br/>
+   Time Period: 8 ns <br/>
+
+   
+   | Transient Analysis    | Pre-layout       | Post-layout |
+   | ----------------------| ---------------  |------------ |
+   | Propagation Delay     | ![tpd_prelayout](https://user-images.githubusercontent.com/53760504/219617505-9af088a4-b0f8-4c85-bd9b-9c7452641871.png)    |![tpd](https://user-images.githubusercontent.com/53760504/219613962-8ef5252e-6c53-4b53-9427-3b9c813976d9.png)|
+   |Rising Propagation Delay|![prelayout_tpdr](https://user-images.githubusercontent.com/53760504/219614843-5249bd0a-77ac-4bc5-a8ef-000eb5c9c990.png)|      ![tpdr_postlayout](https://user-images.githubusercontent.com/53760504/219614495-d2ecd86b-61ab-49e3-94ec-45ba6754e705.png)|
+   | Falling Propagation  Delay |![prelayout_tpdf](https://user-images.githubusercontent.com/53760504/219615596-d220d5aa-3b9e-4d81-b27c-a71a56008bd4.png)|![postlayout_tpdf](https://user-images.githubusercontent.com/53760504/219614734-04772549-4820-457d-95e7-0229ac3a7929.png)|
+ 
+
 

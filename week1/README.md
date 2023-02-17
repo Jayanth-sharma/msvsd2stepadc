@@ -204,7 +204,7 @@
   | Pre-layout                                                       | Postlayout                                                                         |
   | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
   |![img](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/nm_prelayout.png)|![img](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week1/images/dc_postlayout.png)|
-   | VOL = 0.71 VOH= 1.74 <br/> VIL = 0.71 VIH = 0.92 <br> |VOL= 0.76 VOH= 1.73 <br/> VIL= 0.76 VIH= 0.97 <br/> Noise Margin = |
+   | VOL = 0.71 VOH= 1.74 <br/> VIL = 0.71 VIH = 0.92|VOL= 0.76 VOH= 1.73 <br/> VIL= 0.76 VIH= 0.97|
 
 
 -  For our Convencience of Test-bench the Pulse timing parameters are choosen as:<br/>

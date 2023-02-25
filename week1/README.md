@@ -208,7 +208,7 @@
    | VOL = 0.71 VOH= 1.74 <br/> VIL = 0.71 VIH = 0.92|VOL= 0.76 VOH= 1.73 <br/> VIL= 0.76 VIH= 0.97|
 
 
--  For our Convencience of Test-bench the Pulse timing parameters are choosen as:<br/>
+-  For our Convencience of Test-bench the Pulse timing parameters are choosen as Manually:<br/>
    Rise time :  1 ns <br/>
    Fall time :  1 ns <br/>
    On-Time   :  4 ns <br/>
@@ -221,6 +221,13 @@
    |Rising Propagation Delay(Tpdr)|![prelayout_tpdr](https://user-images.githubusercontent.com/53760504/219614843-5249bd0a-77ac-4bc5-a8ef-000eb5c9c990.png)|![tpdr_postlayout](https://user-images.githubusercontent.com/53760504/219614495-d2ecd86b-61ab-49e3-94ec-45ba6754e705.png)|
    | Falling Propagation  Delay(Tpdf) |![prelayout_tpdf](https://user-images.githubusercontent.com/53760504/219615596-d220d5aa-3b9e-4d81-b27c-a71a56008bd4.png)|![postlayout_tpdf](https://user-images.githubusercontent.com/53760504/219614734-04772549-4820-457d-95e7-0229ac3a7929.png)|
  
+## Characteristic Analysis Using Spice Commands in Netlist:
+- For more Accurate measurement use the Following measures in inverter_trans.spice<br/>
+  `Vin Vin GND (0 1.8 50ps 10ps 10ps 200
+ps 500ps) .trans 1ps 600ps`
+- Here is the Spice Netlist:
+  ![netlist_inv_trans_analysis](https://user-images.githubusercontent.com/53760504/221353133-e024056b-1516-4da7-ba30-0c7958650cdc.png)
+   
 ## Prelayout Analysis of Complex Function using General PDKs:
 - 
 

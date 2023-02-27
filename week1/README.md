@@ -196,8 +196,8 @@
   ```
  ##  Post-Layout Transient Analysis of Inverter:
  
-    To Run The post-layout Simulation of Inverter use the command.<br/>
-    `ngspice <file_name>.spice` 
+   - To Run The post-layout Simulation of Inverter use the command. <br/>
+         `ngspice <file_name>.spice` 
    ![postlayout_inv](https://user-images.githubusercontent.com/53760504/219611334-5cd7df4c-9db6-4472-a303-49296cdf7a89.png)
 ## Comparison between Prelayout vs Postlayout Charateristic of Inverter.
 -  Noise Margin Analysis of Prelayout vs Postlayout <br/>
@@ -227,7 +227,10 @@
 ps 500ps) .trans 1ps 600ps`
 - Here is the Spice Netlist:
   ![netlist_inv_trans_analysis](https://user-images.githubusercontent.com/53760504/221353133-e024056b-1516-4da7-ba30-0c7958650cdc.png)
-   
+- Output Waveform and Analysis:
+   ![inverter_trans_analysis](https://user-images.githubusercontent.com/53760504/221483855-ef7f71d0-32eb-4897-904d-4be5307cbb34.png)
+## Inverter Layout Manually:
+- 
 ## Prelayout Analysis of Complex Function using General PDKs:
 - 
 

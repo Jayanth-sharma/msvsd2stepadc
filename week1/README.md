@@ -6,7 +6,8 @@
 |        3   |Prelayout Simulation of Inverter using Xschem,Ngspice |:heavy_check_mark:|
 |        4   |Postlayout Simulation of Inverter using Magic,Ngspice |:heavy_check_mark:|
 |        5   |Comparing Postlayout vs Prelayout of Inverter         |:heavy_check_mark:| 
-|        6   |Design of Pre,Postlayout Simulations of Complex Function using General PDKs|:o:|
+|        6   |Design of Pre,Postlayout Simulations of Complex Function using General PDKs|:heavy_check_mark:|
+|        7   |LVS of Inverter,Fn Function |:o:|
 - A Warmup and Getting Started with the flow with installation of Tools and Usage<br/>
 # Setting up Tools
 | First Header  | Second Header   |
@@ -229,8 +230,7 @@ ps 500ps) .trans 1ps 600ps`
   ![netlist_inv_trans_analysis](https://user-images.githubusercontent.com/53760504/221353133-e024056b-1516-4da7-ba30-0c7958650cdc.png)
 - Output Waveform and Analysis:
    ![inverter_trans_analysis](https://user-images.githubusercontent.com/53760504/221483855-ef7f71d0-32eb-4897-904d-4be5307cbb34.png)
-## Inverter Layout Manually:
-- 
+
 ## Prelayout Analysis of Complex Function using General PDKs:
-- 
+-  
 

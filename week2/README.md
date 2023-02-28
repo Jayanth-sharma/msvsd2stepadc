@@ -55,5 +55,13 @@
                   GDS File      |   LEF File
      :-------------------------:|:-------------------------:
      ![](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week2/Images/ota_5t_gds.png)  |  ![](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week2/Images/ota_5t_lef.png)
-  
-   
+     
+## Prelayout Simulation of CMOS Inverter
+### Pre-layout Characterization using Xschem/Ngspice (Subcircuit):
+
+ ![inverter](https://user-images.githubusercontent.com/53760504/221830953-1a38ad6a-911d-4f78-ab33-759f85a751d8.png)
+
+ ![inverter_sym](https://user-images.githubusercontent.com/53760504/221830979-db393885-3469-40a3-83c2-076da6378860.png)
+
+ ![trans_inv](https://user-images.githubusercontent.com/53760504/221831600-e8fd8366-8742-460f-9cc9-74e1f595706b.png)
+

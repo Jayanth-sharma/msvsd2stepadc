@@ -232,5 +232,64 @@ ps 500ps) .trans 1ps 600ps`
    ![inverter_trans_analysis](https://user-images.githubusercontent.com/53760504/221483855-ef7f71d0-32eb-4897-904d-4be5307cbb34.png)
 
 ## Prelayout Analysis of Complex Function using General PDKs:
--  
+-  The Function Circuits layout is Designed using Euler Path
+   
+![fn_layout](https://user-images.githubusercontent.com/53760504/221776004-13b69cba-ebd6-4d36-9b63-7208b4ce0c36.png)
+- Now Extract the Spice Netlist and Edit the Sources,Analysis in Netlist
+```
+* SPICE3 file created from fn_layout.ext - technology: min2
+
+.option scale=0.09u
+
+M1000 a_46_38# d a_22_38# vdd pmos w=17 l=2
++  ad=102 pd=46 as=204 ps=92
+M1001 out c a_14_9# gnd nmos w=17 l=2
++  ad=204 pd=92 as=204 ps=92
+M1002 vdd b a_46_38# vdd pmos w=17 l=2
++  ad=204 pd=92 as=0 ps=0
+M1003 gnd f a_30_9# gnd nmos w=17 l=2
++  ad=204 pd=92 as=102 ps=46
+M1004 gnd b a_14_9# gnd nmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 out e a_22_38# vdd pmos w=17 l=2
++  ad=102 pd=46 as=0 ps=0
+M1006 a_14_38# a vdd vdd pmos w=17 l=2
++  ad=102 pd=46 as=0 ps=0
+M1007 a_14_9# a out gnd nmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 a_30_9# e out gnd nmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 a_22_38# f out vdd pmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 a_22_38# c a_14_38# vdd pmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 a_14_9# d gnd gnd nmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 a_30_9# gnd 3.37fF 
+C1 a_14_9# gnd 6.82fF
+C2 out gnd 8.40fF 
+C3 a_22_38# gnd 3.02fF 
+C4 vdd gnd 9.58fF
+
+* Analysis
+Vdd vdd 0 1.8
+V1 a 0 0 pulse 0 1.8 0.1n 10p 10p 1n 2n
+V2 b 0 0 pulse 0 1.8 0.2n 10p 10p 1n 2n
+V3 c 0 0 pulse 0 1.8 0.3n 10p 10p 1n 2n
+V4 d 0 0 pulse 0 1.8 0.4n 10p 10p 1n 2n
+V5 e 0 0 pulse 0 1.8 0.5n 10p 10p 1n 2n
+V6 f 0 0 pulse 0 1.8 0.6n 10p 10p 1n 2n
+***Simulation commands***
+.op
+.tran 10p 4n
+.MEAS TRAN rise_time TRIG V(out) VAL=0.18 RISE=1 TARG V(out) VAL=1.62 RISE=1
+.MEAS TRAN FALL_time TRIG V(out) VAL=1.62 FALL=1 TARG V(out) VAL=0.18 FALL=1
+.save all
+*** .include model file ***
+.include  model.mod
+.end
+```
+Run Spice Simulations of Postlayout Netlist
+![fn_postlayout](https://user-images.githubusercontent.com/53760504/221776778-3882ee20-9ac6-4a3c-9ab6-9a3b1fb51ca5.png)
+
 

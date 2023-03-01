@@ -148,11 +148,12 @@ Vin A  VSS 0
 
 ## Comparision of Inverter Post-layout Charactristic of Align,Manual: <br/>
 |Parameters                           | Align| Manual |
-|----------------------------------- -|------|--------|
-| Rise Time(Tpdr)                     |      |        |
-| Fall Time(Tpdf)                     |      |        |
+|-------------------------------------|------|--------|
+| Rise Time(Tpdr)|      |        |
+| Fall Time(Tpdf)|      |        |
 | High to Low Propagation Delay(Tph-l)|      |        |
 | Low to High Propagation Delay(Tpl-h)|      |        |
+
 ## Simulation Of Complex Function <br/>
 ### Pre-layout Analysis of Complex Function <br/>
 -  Fn= [(B+D).(A+C)+E.F]'

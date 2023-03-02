@@ -1,0 +1,17 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1677585720
+<< checkpaint >>
+rect -1313 2374 1629 2445
+rect -1313 -713 1998 2374
+rect -944 -766 1998 -713
+use sky130_fd_pr__pfet_01v8_XGS3BL  XM1
+timestamp 0
+transform 1 0 158 0 1 866
+box -211 -319 211 319
+use sky130_fd_pr__nfet_01v8_648S5X  XM2
+timestamp 0
+transform 1 0 527 0 1 804
+box -211 -310 211 310
+<< end >>

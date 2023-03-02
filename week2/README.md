@@ -4,8 +4,8 @@
  |  1    | Install Align  |:heavy_check_mark:|
  |  2    | Postlayout Characteristics of Inverter using Align|:heavy_check_mark:|
  |  3    | Compare Postlayout Char of Align vs Magic         |:heavy_check_mark:|
- |  4    | Design and Simulation of Complex Fn using Sky130 PDKs|:o:|
- |  5    | Postlayout Characteristics of Complex Function using Magic|:o: |
+ |  4    | Design and Simulation of Complex Fn using Sky130 PDKs|:heavy_check_mark:|
+ |  5    | Postlayout Characteristics of Complex Function using Magic|:heavy_check_mark: |
  |  6    | Postlayout Characteristics using Align|:o:|
 # Installation of ALIGN
 - ALIGN (Analog Layout, Intelligently Generated from Netlists) is to automatically translate an unannotated (or partially annotated) SPICE netlist of an     analog circuit to a GDSII layout. Follow the command to install: 
@@ -159,3 +159,29 @@ Vin A  VSS 0
 -  Fn= [(B+D).(A+C)+E.F]'
 - Schematic:
   
+  
+  
+## Post-layout Characteristics of Fn Function :<br/>
+```
+vinayreddy@vsd-mspdr:~/Desktop/mspdr/ALIGN-public/work/mag$ ngspice FN_0.spice
+******
+** ngspice-39 : Circuit level simulation program
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2022, The ngspice team.
+** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+** Creation Date: Tue Feb 10 08:15:11 UTC 2023
+******
+
+Note: No compatibility mode selected!
+
+
+Circuit: * spice3 file created from fn_0.ext - technology: sky130a
+
+ngspice 2 -> plot Y
+Error: no such vector Y
+ngspice 3 -> 
+
+
+```

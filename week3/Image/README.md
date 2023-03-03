@@ -93,4 +93,12 @@ make DESIGN_CONFIG=./designs/sky130hd/ibex/config.mk
 ![image](https://user-images.githubusercontent.com/53760504/222674066-e1fcdf4c-858b-4ac4-b2ea-c0f54f01153c.png)
 ![image](https://user-images.githubusercontent.com/53760504/222674635-9ae927e9-1391-4a2a-b130-0209f23ebc50.png)
 ## Generating Temperature-Sensor-Layout 
-- 
+- Introduction to howing of Temperature Sensor Generation using OpenFASOC.<br/>
+- The Temperature Sensor Generated is a Mixed-Signal Based On the paper.
+`Citation: Q. Zhang et al., "An Open-Source and Autonomous Temperature Sensor Generator Verified With 64 Instances in SkyWater 130 nm for Comprehensive Design Space Exploration," in IEEE Solid-State Circuits Letters, vol. 5, pp. 174-177, 2022, doi: 10.1109/LSSC.2022.3188925.`
+
+- It consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential.
+
+![temperature_sen](https://user-images.githubusercontent.com/53760504/222773250-234ec809-0d16-4780-8711-8d1937713ae3.png)
+
+

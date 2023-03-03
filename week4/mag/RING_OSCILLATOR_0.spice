@@ -1,0 +1,62 @@
+* SPICE3 file created from RING_OSCILLATOR_0.ext - technology: sky130A
+
+X0 li_1609_1747# li_1437_1243# VCTL VCCX sky130_fd_pr__pfet_01v8 ad=1.176e+11p pd=1.4e+06u as=8.904e+11p ps=1.096e+07u w=420000u l=150000u
+X1 VCTL li_1437_1243# li_1609_1747# VCCX sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X2 li_1609_1747# li_1437_1243# VSSX VSSX sky130_fd_pr__nfet_01v8 ad=1.176e+11p pd=1.4e+06u as=1.113e+12p ps=1.37e+07u w=420000u l=150000u
+X3 VSSX li_1437_1243# li_1609_1747# VSSX sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X4 li_577_1495# li_1609_1747# VSSX VSSX sky130_fd_pr__nfet_01v8 ad=1.176e+11p pd=1.4e+06u as=0p ps=0u w=420000u l=150000u
+X5 VSSX li_1609_1747# li_577_1495# VSSX sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X6 li_577_1495# li_1609_1747# VCTL VCCX sky130_fd_pr__pfet_01v8 ad=1.176e+11p pd=1.4e+06u as=0p ps=0u w=420000u l=150000u
+X7 VCTL li_1609_1747# li_577_1495# VCCX sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X8 li_405_1495# li_577_1495# VCTL VCCX sky130_fd_pr__pfet_01v8 ad=1.176e+11p pd=1.4e+06u as=0p ps=0u w=420000u l=150000u
+X9 VCTL li_577_1495# li_405_1495# VCCX sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X10 li_405_1495# li_577_1495# VSSX VSSX sky130_fd_pr__nfet_01v8 ad=1.176e+11p pd=1.4e+06u as=0p ps=0u w=420000u l=150000u
+X11 VSSX li_577_1495# li_405_1495# VSSX sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X12 li_1093_1243# li_405_1495# VSSX VSSX sky130_fd_pr__nfet_01v8 ad=1.176e+11p pd=1.4e+06u as=0p ps=0u w=420000u l=150000u
+X13 VSSX li_405_1495# li_1093_1243# VSSX sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X14 li_1093_1243# li_405_1495# m1_344_1652# VCCX sky130_fd_pr__pfet_01v8 ad=1.176e+11p pd=1.4e+06u as=2.226e+11p ps=2.74e+06u w=420000u l=150000u
+X15 m1_344_1652# li_405_1495# li_1093_1243# VCCX sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X16 li_1437_1243# li_1093_1243# VSSX VSSX sky130_fd_pr__nfet_01v8 ad=1.176e+11p pd=1.4e+06u as=0p ps=0u w=420000u l=150000u
+X17 VSSX li_1093_1243# li_1437_1243# VSSX sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X18 li_1437_1243# li_1093_1243# VCTL VCCX sky130_fd_pr__pfet_01v8 ad=1.176e+11p pd=1.4e+06u as=0p ps=0u w=420000u l=150000u
+X19 VCTL li_1093_1243# li_1437_1243# VCCX sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+C0 li_1093_1243# VCTL 0.66fF
+C1 li_1609_1747# VO 0.04fF
+C2 li_1437_1243# VCTL 1.21fF
+C3 VCCX li_577_1495# 1.24fF
+C4 li_1093_1243# li_1609_1747# 0.12fF
+C5 VCCX li_405_1495# 1.87fF
+C6 li_1093_1243# m1_344_1652# 0.65fF
+C7 li_1437_1243# li_1609_1747# 0.67fF
+C8 li_1093_1243# VO 0.24fF
+C9 li_1437_1243# VO 0.30fF
+C10 VCTL li_577_1495# 1.31fF
+C11 li_405_1495# VCTL 0.87fF
+C12 li_1437_1243# li_1093_1243# 0.32fF
+C13 li_1609_1747# li_577_1495# 0.33fF
+C14 li_577_1495# m1_344_1652# 0.03fF
+C15 li_405_1495# li_1609_1747# 0.00fF
+C16 li_405_1495# m1_344_1652# 0.45fF
+C17 VCCX VCTL 3.05fF
+C18 li_405_1495# VO 0.65fF
+C19 li_1093_1243# li_577_1495# 0.10fF
+C20 VCCX li_1609_1747# 1.96fF
+C21 li_1093_1243# li_405_1495# 0.69fF
+C22 li_1437_1243# li_577_1495# 0.22fF
+C23 VCCX m1_344_1652# 0.31fF
+C24 li_1437_1243# li_405_1495# 0.01fF
+C25 VCCX VO 0.65fF
+C26 VCCX li_1093_1243# 1.91fF
+C27 li_1609_1747# VCTL 1.86fF
+C28 VCTL m1_344_1652# 0.01fF
+C29 li_1437_1243# VCCX 1.87fF
+C30 VO VCTL 0.08fF
+C31 li_405_1495# li_577_1495# 0.39fF
+C32 VO VSSX 0.08fF
+C33 li_1093_1243# VSSX 1.60fF **FLOATING
+C34 m1_344_1652# VSSX 0.27fF
+C35 li_405_1495# VSSX 1.90fF
+C36 li_577_1495# VSSX 1.83fF
+C37 li_1609_1747# VSSX 1.42fF **FLOATING
+C38 VCCX VSSX 18.66fF **FLOATING
+C39 li_1437_1243# VSSX 1.90fF **FLOATING

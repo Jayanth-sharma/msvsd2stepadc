@@ -2,7 +2,7 @@
 |SI.No|Action Item|Status|
 |-----|-----------|------|
 | 1   |Pre-layout Analysis Three-Stage Ring-Oscillator|:heavy_check_mark:|
-| 2   |Post-Layout Analysis of Ring-Oscillator Using Magic|:o:|
+| 2   |Post-Layout Analysis of Ring-Oscillator Using Magic|:heavy_check_mark:|
 | 3   |Post-layout Analysis of Ring-Oscillator Using Magic|:o:|
 
 ## Pre-layout Analysis of Ring-Oscillator

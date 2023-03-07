@@ -3,7 +3,7 @@
 |-----|-----------|------|
 | 1   |Pre-layout Analysis Three-Stage Ring-Oscillator|:heavy_check_mark:|
 | 2   |Post-Layout Analysis of Ring-Oscillator Using Magic|:heavy_check_mark:|
-| 3   |Post-layout Analysis of Ring-Oscillator Using Magic|:o:|
+| 3   |Post-layout Analysis of Ring-Oscillator Using Align|:o:|
 
 ## Pre-layout Analysis of Ring-Oscillator
 - A ring oscillator is a self-toggling circuit that generates clock-like pulses without any external input, other than the power that it needs.Here a 3 staged  Cascaded inverter B2B.

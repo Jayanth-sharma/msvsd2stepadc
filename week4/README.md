@@ -18,5 +18,5 @@
 ## Post-layout Analysis of Ring Oscillator
 - Manual Layout of a Three-Stage Ring Oscillator
   ![ring_osc2_layoutmanual](https://user-images.githubusercontent.com/53760504/223493101-5070a484-1bd5-4beb-8662-5a83ad0ce275.png)
-- You can Find the Netlist Here:[ring_osc2.spice](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week4/ring_osc_magic/ring_osc2.spice)
+- You can Find the Netlist Here: [ring_osc2.spice](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week4/ring_osc_magic/ring_osc2.spice)
   ![ring_osc_ml_postlayout](https://user-images.githubusercontent.com/53760504/223493769-158fb167-881d-4780-8ffc-6c6190a4af8c.png)

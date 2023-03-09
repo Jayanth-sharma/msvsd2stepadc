@@ -49,3 +49,8 @@ xi4 n4 vo vssx vccx vctl ring_oscillator_stage
 .ends
 ```
 - Refer The Examples Here -[ring_oscillator.sp](https://github.com/ALIGN-analoglayout/ALIGN-public/blob/master/examples/ring_oscillator/ring_oscillator.sp)
+- Now You Can Run ALIGN to Generate the Layout
+  ![ALign_RO2](https://user-images.githubusercontent.com/53760504/223916796-04910882-73cf-4fec-a30d-7f4268d62a86.png)
+- Open the GDS In Magic  
+  ![Ring_osc2_AlignGDS](https://user-images.githubusercontent.com/53760504/223916863-d9849bd0-70e8-4159-8e76-56553a748721.png)
+- The Extracted Netlist from Magic : 

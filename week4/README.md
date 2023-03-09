@@ -48,3 +48,4 @@ xi3 n3 n4 vssx vccx vctl ring_oscillator_stage
 xi4 n4 vo vssx vccx vctl ring_oscillator_stage
 .ends
 ```
+- Refer The Examples Here -[ring_oscillator.sp](https://github.com/ALIGN-analoglayout/ALIGN-public/blob/master/examples/ring_oscillator/ring_oscillator.sp)

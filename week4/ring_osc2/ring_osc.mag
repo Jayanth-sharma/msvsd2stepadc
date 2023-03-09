@@ -1,0 +1,371 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1678279511
+<< checkpaint >>
+rect -1313 2402 1629 2455
+rect -1313 2349 1998 2402
+rect -1313 2296 2367 2349
+rect -1313 2243 2736 2296
+rect -1313 2190 3105 2243
+rect -1313 2137 3474 2190
+rect -1313 2084 3843 2137
+rect -1313 2031 4212 2084
+rect -1313 1978 4581 2031
+rect -1313 1925 4950 1978
+rect -1313 1872 5319 1925
+rect -1313 1819 5688 1872
+rect -1313 1766 6057 1819
+rect -1313 1713 6426 1766
+rect -1313 1660 6795 1713
+rect -1313 1607 7164 1660
+rect -1313 1554 7533 1607
+rect -1313 1501 7902 1554
+rect -1313 1448 8271 1501
+rect -1313 1377 8640 1448
+rect -1313 1324 9009 1377
+rect -1313 1271 9378 1324
+rect -1313 1218 9747 1271
+rect -1313 1165 10116 1218
+rect -1313 1112 10485 1165
+rect -1313 1059 10854 1112
+rect -1313 1006 11223 1059
+rect -1313 953 11592 1006
+rect -1313 900 11961 953
+rect -1313 847 12330 900
+rect -1313 794 12699 847
+rect -1313 741 13068 794
+rect -1313 688 13437 741
+rect -1313 635 13806 688
+rect -1313 582 14175 635
+rect -1313 529 14544 582
+rect -1313 476 14913 529
+rect -1313 423 15282 476
+rect -1313 370 15651 423
+rect -1313 317 16020 370
+rect -1313 264 16389 317
+rect -1313 211 16758 264
+rect -1313 158 17127 211
+rect -1313 105 17496 158
+rect -1313 52 17865 105
+rect -1313 -1 18234 52
+rect -1313 -54 18603 -1
+rect -1313 -107 18972 -54
+rect -1313 -160 19341 -107
+rect -1313 -195 19710 -160
+rect -1313 -248 20079 -195
+rect -1313 -301 20448 -248
+rect -1313 -354 20817 -301
+rect -1313 -407 21186 -354
+rect -1313 -460 21555 -407
+rect -1313 -513 21924 -460
+rect -1313 -566 22293 -513
+rect -1313 -619 22662 -566
+rect -1313 -672 23031 -619
+rect -1313 -713 23400 -672
+rect -1260 -1084 23400 -713
+rect -1260 -2060 1460 -1084
+rect 1639 -1137 23400 -1084
+rect 2008 -1190 23400 -1137
+rect 2377 -1243 23400 -1190
+rect 2746 -1296 23400 -1243
+rect 3115 -1349 23400 -1296
+rect 3484 -1402 23400 -1349
+rect 3853 -1455 23400 -1402
+rect 4222 -1508 23400 -1455
+rect 4591 -1561 23400 -1508
+rect 4960 -1614 23400 -1561
+rect 5329 -1667 23400 -1614
+rect 5698 -1720 23400 -1667
+rect 6067 -1773 23400 -1720
+rect 6436 -1826 23400 -1773
+rect 6805 -1879 23400 -1826
+rect 7174 -1932 23400 -1879
+rect 7543 -1985 23400 -1932
+rect 7912 -2038 23400 -1985
+rect 8281 -2091 23400 -2038
+rect 8650 -2144 23400 -2091
+rect 9019 -2197 23400 -2144
+rect 9388 -2250 23400 -2197
+rect 9757 -2303 23400 -2250
+rect 10126 -2356 23400 -2303
+rect 10495 -2409 23400 -2356
+rect 10864 -2462 23400 -2409
+rect 11233 -2515 23400 -2462
+rect 11602 -2568 23400 -2515
+rect 11971 -2621 23400 -2568
+rect 12340 -2674 23400 -2621
+rect 12709 -2727 23400 -2674
+rect 13078 -2780 23400 -2727
+rect 13447 -2833 23400 -2780
+rect 13816 -2886 23400 -2833
+rect 14185 -2939 23400 -2886
+rect 14554 -2992 23400 -2939
+rect 14923 -3045 23400 -2992
+rect 15292 -3098 23400 -3045
+rect 15661 -3151 23400 -3098
+rect 16030 -3204 23400 -3151
+rect 16399 -3257 23400 -3204
+rect 16768 -3310 23400 -3257
+rect 17137 -3363 23400 -3310
+rect 17506 -3416 23400 -3363
+rect 17875 -3469 23400 -3416
+rect 18244 -3522 23400 -3469
+rect 18613 -3575 23400 -3522
+rect 18982 -3628 23400 -3575
+rect 19351 -3681 23400 -3628
+rect 19720 -3734 23400 -3681
+rect 20089 -3787 23400 -3734
+rect 20458 -3840 23400 -3787
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X0
+timestamp 0
+transform 1 0 158 0 1 871
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X1
+timestamp 0
+transform 1 0 527 0 1 818
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X2
+timestamp 0
+transform 1 0 896 0 1 765
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X3
+timestamp 0
+transform 1 0 1265 0 1 712
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X4
+timestamp 0
+transform 1 0 1634 0 1 659
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X5
+timestamp 0
+transform 1 0 2003 0 1 606
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X6
+timestamp 0
+transform 1 0 2372 0 1 553
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X7
+timestamp 0
+transform 1 0 2741 0 1 500
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X8
+timestamp 0
+transform 1 0 3110 0 1 447
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X9
+timestamp 0
+transform 1 0 3479 0 1 394
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X10
+timestamp 0
+transform 1 0 3848 0 1 341
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X11
+timestamp 0
+transform 1 0 4217 0 1 288
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X12
+timestamp 0
+transform 1 0 4586 0 1 235
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X13
+timestamp 0
+transform 1 0 4955 0 1 182
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X14
+timestamp 0
+transform 1 0 5324 0 1 129
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X15
+timestamp 0
+transform 1 0 5693 0 1 76
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X16
+timestamp 0
+transform 1 0 6062 0 1 23
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X17
+timestamp 0
+transform 1 0 6431 0 1 -30
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X18
+timestamp 0
+transform 1 0 6800 0 1 -83
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X19
+timestamp 0
+transform 1 0 7169 0 1 -136
+box -211 -324 211 324
+use sky130_fd_pr__nfet_01v8_GULSAL  X20
+timestamp 0
+transform 1 0 7538 0 1 -198
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X21
+timestamp 0
+transform 1 0 7907 0 1 -251
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X22
+timestamp 0
+transform 1 0 8276 0 1 -304
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X23
+timestamp 0
+transform 1 0 8645 0 1 -357
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X24
+timestamp 0
+transform 1 0 9014 0 1 -410
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X25
+timestamp 0
+transform 1 0 9383 0 1 -463
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X26
+timestamp 0
+transform 1 0 9752 0 1 -516
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X27
+timestamp 0
+transform 1 0 10121 0 1 -569
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X28
+timestamp 0
+transform 1 0 10490 0 1 -622
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X29
+timestamp 0
+transform 1 0 10859 0 1 -675
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X30
+timestamp 0
+transform 1 0 11228 0 1 -728
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X31
+timestamp 0
+transform 1 0 11597 0 1 -781
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X32
+timestamp 0
+transform 1 0 11966 0 1 -834
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X33
+timestamp 0
+transform 1 0 12335 0 1 -887
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X34
+timestamp 0
+transform 1 0 12704 0 1 -940
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X35
+timestamp 0
+transform 1 0 13073 0 1 -993
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X36
+timestamp 0
+transform 1 0 13442 0 1 -1046
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X37
+timestamp 0
+transform 1 0 13811 0 1 -1099
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X38
+timestamp 0
+transform 1 0 14180 0 1 -1152
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X39
+timestamp 0
+transform 1 0 14549 0 1 -1205
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X40
+timestamp 0
+transform 1 0 14918 0 1 -1258
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X41
+timestamp 0
+transform 1 0 15287 0 1 -1311
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X42
+timestamp 0
+transform 1 0 15656 0 1 -1364
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X43
+timestamp 0
+transform 1 0 16025 0 1 -1417
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X44
+timestamp 0
+transform 1 0 16394 0 1 -1470
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X45
+timestamp 0
+transform 1 0 16763 0 1 -1523
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X46
+timestamp 0
+transform 1 0 17132 0 1 -1576
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X47
+timestamp 0
+transform 1 0 17501 0 1 -1629
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X48
+timestamp 0
+transform 1 0 17870 0 1 -1682
+box -211 -315 211 315
+use sky130_fd_pr__nfet_01v8_GULSAL  X49
+timestamp 0
+transform 1 0 18239 0 1 -1735
+box -211 -315 211 315
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X50
+timestamp 0
+transform 1 0 18608 0 1 -1779
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X51
+timestamp 0
+transform 1 0 18977 0 1 -1832
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X52
+timestamp 0
+transform 1 0 19346 0 1 -1885
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X53
+timestamp 0
+transform 1 0 19715 0 1 -1938
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X54
+timestamp 0
+transform 1 0 20084 0 1 -1991
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X55
+timestamp 0
+transform 1 0 20453 0 1 -2044
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X56
+timestamp 0
+transform 1 0 20822 0 1 -2097
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X57
+timestamp 0
+transform 1 0 21191 0 1 -2150
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X58
+timestamp 0
+transform 1 0 21560 0 1 -2203
+box -211 -324 211 324
+use sky130_fd_pr__pfet_01v8_XJ5TMQ  X59
+timestamp 0
+transform 1 0 21929 0 1 -2256
+box -211 -324 211 324
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 OUT
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 VDD
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 GND
+port 2 nsew
+<< end >>

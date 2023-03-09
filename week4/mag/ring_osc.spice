@@ -1,0 +1,27 @@
+* SPICE3 file created from ring_osc.ext - technology: sky130A
+
+X0 m1_950_44# m1_526_50# m1_278_n360# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=8.7e+11p ps=7.74e+06u w=1e+06u l=150000u
+X1 m1_526_50# m1_496_948# m1_310_1136# XM6/w_n211_n319# sky130_fd_pr__pfet_01v8 ad=2.9e+11p pd=2.58e+06u as=8.7e+11p ps=7.74e+06u w=1e+06u l=150000u
+X2 m1_496_948# m1_950_44# m1_278_n360# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=150000u
+X3 m1_950_44# m1_526_50# m1_310_1136# XM6/w_n211_n319# sky130_fd_pr__pfet_01v8 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=150000u
+X4 m1_526_50# m1_496_948# m1_278_n360# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=150000u
+X5 m1_496_948# m1_950_44# m1_310_1136# XM6/w_n211_n319# sky130_fd_pr__pfet_01v8 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=150000u
+C0 m1_526_50# XM6/w_n211_n319# 0.68fF
+C1 m1_278_n360# m1_496_948# 0.31fF
+C2 m1_278_n360# m1_950_44# 0.35fF
+C3 m1_278_n360# m1_310_1136# 0.01fF
+C4 XM6/w_n211_n319# m1_496_948# 1.42fF
+C5 m1_950_44# XM6/w_n211_n319# 0.61fF
+C6 m1_310_1136# XM6/w_n211_n319# 1.31fF
+C7 m1_526_50# m1_496_948# 0.48fF
+C8 m1_526_50# m1_950_44# 0.21fF
+C9 m1_526_50# m1_310_1136# 0.35fF
+C10 m1_950_44# m1_496_948# 0.49fF
+C11 m1_310_1136# m1_496_948# 0.33fF
+C12 m1_950_44# m1_310_1136# 0.35fF
+C13 m1_278_n360# XM6/w_n211_n319# 0.01fF
+C14 m1_278_n360# m1_526_50# 0.36fF
+C15 m1_950_44# VSUBS 0.12fF
+C16 m1_526_50# VSUBS 0.07fF 
+C17 m1_278_n360# VSUBS 0.73fF 
+C18 XM6/w_n211_n319# VSUBS 2.60fF 

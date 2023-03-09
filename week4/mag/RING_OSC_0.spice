@@ -1,6 +1,6 @@
 * SPICE3 file created from RING_OSC_0.ext - technology: sky130A
 .option scale=5000u
-
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 V1 VDD GND 1.8
 
 x1 VDD Y GND ring_osc
@@ -11,7 +11,6 @@ x1 VDD Y GND ring_osc
 
 * .dc V2 0 1.8 0.01
 .tran 10p 4n 0
-
 .control
   run
   print allv > plot_data_v.txt
@@ -19,7 +18,7 @@ x1 VDD Y GND ring_osc
   plot v(Y)
 .endc
 
-.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
 
 **** end user architecture code
 
@@ -35,7 +34,7 @@ X7 m1_398_2912# m1_688_4424# STAGE2_INV_5734008_0_0_1677844589_0/li_491_571# m1_
 X8 li_405_1579# STAGE2_INV_5734008_0_0_1677844589_0/li_491_571# VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=1.176e+11p pd=1.4e+06u as=0p ps=0u w=420000u l=150000u
 X9 VSUBS STAGE2_INV_5734008_0_0_1677844589_0/li_491_571# li_405_1579# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
 X10 STAGE2_INV_5734008_0_0_1677844589_0/li_491_571# m1_688_4424# VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=1.176e+11p pd=1.4e+06u as=0p ps=0u w=420000u l=150000u
-X11 VSUBS m1_688_4424# STAGE2_INV_5734008_0_0_1677844589_0/li_491_571# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X11 Y m1_688_4424# STAGE2_INV_5734008_0_0_1677844589_0/li_491_571# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
 C0 m1_688_4424# m1_398_2912# 2.28fF
 C1 Y li_405_1579# 0.01fF
 C2 GND Y 0.02fF
@@ -59,6 +58,4 @@ C19 STAGE2_INV_5734008_0_0_1677844589_0/li_491_571# VSUBS 1.16fF
 C20 m1_398_2912# VSUBS 8.15fF
 .ends
 
-.GLOBAL GND
-.end
 

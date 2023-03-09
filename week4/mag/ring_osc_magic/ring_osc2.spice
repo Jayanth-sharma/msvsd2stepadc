@@ -1,0 +1,48 @@
+* SPICE3 file created from ring_osc2.ext - technology: sky130A
+V1 vp vn 1.8
+
+x1 vp Y vn ring_osc2
+
+**** begin user architecture code
+
+
+
+* .dc V2 0 1.8 0.01
+.tran 10p 4n
+
+.control
+  run
+  print allv > plot_data_v.txt
+  print alli > plot_data_i.txt
+  plot v(y)
+.endc
+
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.subckt ring_osc2 vp y vn
+X0 m1_172_80# y vp XM3/w_n211_n319# sky130_fd_pr__pfet_01v8 ad=2.9e+11p pd=2.58e+06u as=8.7e+11p ps=7.74e+06u w=1e+06u l=150000u
+X1 m1_964_n92# m1_172_80# vp XM3/w_n211_n319# sky130_fd_pr__pfet_01v8 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=150000u
+X2 y m1_964_n92# vp XM3/w_n211_n319# sky130_fd_pr__pfet_01v8 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=150000u
+X3 m1_964_n92# m1_172_80# vn VSUBS sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=8.7e+11p ps=7.74e+06u w=1e+06u l=150000u
+X4 m1_172_80# y vn VSUBS sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=150000u
+X5 y m1_964_n92# vn VSUBS sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=150000u
+C0 vn vp 0.01fF
+C1 XM3/w_n211_n319# y 1.41fF
+C2 m1_172_80# m1_964_n92# 0.21fF
+C3 XM3/w_n211_n319# vp 1.25fF
+C4 vn m1_964_n92# 0.36fF
+C5 m1_172_80# vn 0.35fF
+C6 vp y 0.32fF
+C7 XM3/w_n211_n319# m1_964_n92# 0.64fF
+C8 m1_172_80# XM3/w_n211_n319# 0.72fF
+C9 vn XM3/w_n211_n319# 0.01fF
+C10 m1_964_n92# y 0.46fF
+C11 m1_172_80# y 0.38fF
+C12 vn y 0.30fF
+C13 m1_964_n92# vp 0.36fF
+C14 m1_172_80# vp 0.36fF
+C15 m1_964_n92# VSUBS 0.06fF 
+C16 m1_172_80# VSUBS 0.06fF 
+C17 vn VSUBS 0.58fF
+C18 XM3/w_n211_n319# VSUBS 2.48fF
+.ends

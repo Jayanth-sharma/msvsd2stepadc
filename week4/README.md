@@ -57,7 +57,6 @@ xi4 n4 vo vssx vccx vctl ring_oscillator_stage
   ![Ring_osc2_AlignGDS](https://user-images.githubusercontent.com/53760504/223916863-d9849bd0-70e8-4159-8e76-56553a748721.png)
 - The Extracted Netlist from Magic : [RING_OSC2_0.spice](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week4/ring_osc2/RING_OSC2_0.spice)
    ![Align_Ring_OSc2](https://user-images.githubusercontent.com/53760504/223919815-d8fd13db-f778-4d99-a8e6-a2474e93e566.png)
- |Pre-layout Ring-Oscillator|Post-layout Ring-Oscillator with Align|
- |--------------------------|--------------------------------------|
- |![ring-osc_prelayout](https://user-images.githubusercontent.com/53760504/225320597-b4547118-715c-4b15-a067-99dcfe761042.png)
-|![Align_Ring_OSc2](https://user-images.githubusercontent.com/53760504/225320749-4a019753-f49e-4644-a691-39c2aee68b6b.png)|
+- Pre-layout Ring-Oscillator and Post-layout Ring-Oscillator with Align have matched.<br/>
+ ![ring-osc_prelayout](https://user-images.githubusercontent.com/53760504/225320597-b4547118-715c-4b15-a067-99dcfe761042.png)
+ ![Align_Ring_OSc2](https://user-images.githubusercontent.com/53760504/225320749-4a019753-f49e-4644-a691-39c2aee68b6b.png)

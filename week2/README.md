@@ -55,7 +55,7 @@
  -   Now open the .lef  ,  .gds files in klayout <br/>
                   GDS File      |   LEF File
      :-------------------------:|:-------------------------:
-   ![](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week2/Images/ota_5t_gds.png)  |  ![](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week2/Images/ota_5t_lef.png)
+   ![](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week2/Images/ota_5t_gds.png)|![](https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/week2/Images/ota_5t_lef.png)
      
 ## Prelayout Simulation of CMOS Inverter
 ### Pre-layout Characterization using Xschem/Ngspice (Subcircuit):

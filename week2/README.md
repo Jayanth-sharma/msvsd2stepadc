@@ -6,7 +6,7 @@
  |  3    | Compare Postlayout Char of Align vs Magic         |:heavy_check_mark:|
  |  4    | Design and Simulation of Complex Fn using Sky130 PDKs|:heavy_check_mark:|
  |  5    | Postlayout Characteristics of Complex Function using Magic|:heavy_check_mark: |
- |  6    | Postlayout Characteristics using Align|:o:|
+ |  6    | Postlayout Characteristics Fn function using Align|:o:|
  |  7    | LVS of Inverter And Fn function|:o:|
 # Installation of ALIGN
 - ALIGN (Analog Layout, Intelligently Generated from Netlists) is to automatically translate an unannotated (or partially annotated) SPICE netlist of an     analog circuit to a GDSII layout. Follow the command to install: 

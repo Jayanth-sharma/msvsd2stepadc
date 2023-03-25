@@ -1,0 +1,41 @@
+* SPICE3 file created from RING_OSC1_0.ext - technology: sky130A
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.subckt ring_osc1 VDD VSS FOUT
+X0 li_405_1747# STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# VDD VDD sky130_fd_pr__pfet_01v8 ad=7.056e+11p pd=5.6e+06u as=4.0068e+12p ps=3.342e+07u w=2.52e+06u l=150000u
+X1 VDD STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# li_405_1747# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.52e+06u l=150000u
+X2 STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# m1_312_1484# VDD VDD sky130_fd_pr__pfet_01v8 ad=7.056e+11p pd=5.6e+06u as=0p ps=0u w=2.52e+06u l=150000u
+X3 VDD m1_312_1484# STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.52e+06u l=150000u
+X4 li_405_1747# STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# VSS VSS sky130_fd_pr__nfet_01v8 ad=7.056e+11p pd=5.6e+06u as=4.0068e+12p ps=3.342e+07u w=2.52e+06u l=150000u
+X5 VSS STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# li_405_1747# VSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.52e+06u l=150000u
+X6 STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# m1_312_1484# VSS VSS sky130_fd_pr__nfet_01v8 ad=7.056e+11p pd=5.6e+06u as=0p ps=0u w=2.52e+06u l=150000u
+X7 VSS m1_312_1484# STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# VSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.52e+06u l=150000u
+X8 m1_312_1484# li_405_1747# VSS VSS sky130_fd_pr__nfet_01v8 ad=7.056e+11p pd=5.6e+06u as=0p ps=0u w=2.52e+06u l=150000u
+X9 VSS li_405_1747# m1_312_1484# VSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.52e+06u l=150000u
+X10 m1_312_1484# li_405_1747# VDD VDD sky130_fd_pr__pfet_01v8 ad=7.056e+11p pd=5.6e+06u as=0p ps=0u w=2.52e+06u l=150000u
+X11 VDD li_405_1747# m1_312_1484# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.52e+06u l=150000u
+C0 VDD STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# 2.39fF
+C1 FOUT li_405_1747# 0.21fF
+C2 m1_312_1484# li_405_1747# 0.41fF
+C3 FOUT VDD 0.39fF
+C4 m1_312_1484# VDD 1.95fF
+C5 FOUT STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# 0.15fF
+C6 VDD li_405_1747# 4.07fF
+C7 m1_312_1484# STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# 0.63fF
+C8 li_405_1747# STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# 0.54fF
+C9 FOUT VSS 0.33fF
+C10 m1_312_1484# VSS 1.52fF
+C11 VDD VSS 12.42fF
+C12 STAGE2_INV_89403287_PG0_0_0_1679678944_0/li_405_571# VSS 0.02fF
+.ends
+
+X1 VDD VSS FOUT ring_osc1
+
+V1 VDD VSS 1.8
+
+.tran 10p 10n
+.control
+run
+plot v(FOUT)
+.save all
+.endc
+

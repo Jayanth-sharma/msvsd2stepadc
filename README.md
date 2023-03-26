@@ -10,5 +10,6 @@
 |         1     | [Tool Setup and Warmup](https://github.com/Jayanth-sharma/msvsd2stepadc/tree/main/week1)|:heavy_check_mark:|
 |         2     | [Analysis of Layout with Magic,Align](https://github.com/Jayanth-sharma/msvsd2stepadc/tree/main/week2)|:heavy_check_mark:|
 |         3     | [Generating Temperature Sensor Using OpenFASOC](https://github.com/Jayanth-sharma/msvsd2stepadc/tree/main/week3/Image)|:heavy_check_mark:|
-| 4|[4-bit Asynchronous Counter GDS Files Generation](https://github.com/Jayanth-sharma/msvsd2stepadc/tree/main/week4)|:heavy_check_mark: Upadating...|
+| 4|[4-bit Asynchronous Counter GDS Files Generation](https://github.com/Jayanth-sharma/msvsd2stepadc/tree/main/week4)|:heavy_check_mark:|
 | 5|[openFASOC Implementation of Asynchronous Counter]()|Updating..|
+| 6|[Two-Bit Flash ADC And Sample and Hold Circuit]()   |Updating...|

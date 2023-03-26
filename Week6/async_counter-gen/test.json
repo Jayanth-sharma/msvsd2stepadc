@@ -1,0 +1,8 @@
+{
+    "module_name": "async_counter",
+    "generator": "async_counter-gen",
+    "specifications": {
+    	"frequency": { "min": 5, "max": 1200 }
+    }
+}
+

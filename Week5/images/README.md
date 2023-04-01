@@ -30,3 +30,12 @@ The RO design Last Week is Not Compatable with the Comparator(Block) As the RO F
 
 - Here is the .sp netlist for Comparator Circuit: [comparator.sp](https://github.com/Jayanth-sharma/msvsd2stepadc/tree/main/Week5/images/mag/ALIGN/comparator)
 
+![comparator_kl](https://user-images.githubusercontent.com/53760504/229266019-d87c79d0-bd59-4472-9c2c-a2851d3608d4.png)
+![comparator_layout](https://user-images.githubusercontent.com/53760504/229266028-5ffaa99b-0c1b-423f-8dd1-412449ed5730.png)
+![comparator_postlayout](https://user-images.githubusercontent.com/53760504/229266479-da9e23d0-3f1a-4e6f-beaa-b49d7c7c5348.png)
+## Comparasion of Prelayout and Post-layout of Analog Blocks
+- Analysis of Delay Time and Frequency of Ring Oscillator <br/>
+- Analysis of VTC Characteristics of Comparator <br/>
+## Full 1-Bit ADC Post-layout Analysis
+- Error with Generating Resistor Bridge with Align <br/>
+- Tring to Figure out or Attaching Manually <br/>

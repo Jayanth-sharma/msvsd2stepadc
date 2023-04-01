@@ -42,4 +42,53 @@ The RO design Last Week is Not Compatable with the Comparator(Block) As the RO F
 - Error with Generating Resistor Bridge with Align <br/>
 - Tring to Figure out or Attaching Manually <br/>
 ## Dummy Verilog Codes for Analog Blocks
+- 1-bit ADC code Click Here.
+<details><summary>1-bit ADC</summary>
 
+```
+module async_counter(
+    input wire v_bias,
+    input wire v_inn,
+    output wire  out_bit
+);
+
+wire ring_Fout;
+
+RING_OSCILLATOR RING_OSCILLATOR(
+    .INP(ring_Fout)
+);
+
+COMPARATOR COMPARATOR(
+    .INP(ring_Fout),
+    .INN(v_inn),
+    .BIAS(v_bias),
+    .OUT(out_bit)
+);
+
+endmodule
+```
+
+</details><br>
+
+<details><summary>Comparator</summary>
+
+```
+module COMPARATOR(
+    input INP,
+    input INN,
+    input BIAS,
+    output OUT
+);
+endmodule
+```
+</details><br>
+
+<details><summary>Ring-Oscillator</summary>
+
+```
+module RING_OSCILLATOR(
+    output INP
+);
+endmodule
+```
+</details><br>

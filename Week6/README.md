@@ -81,7 +81,7 @@ endmodule
 
 ```
 </details><br>
-<details><summary>ud_counter.v</summary>
+<details><summary>tb_counter.v</summary>
 
 ```
 `timescale 1ns/1ps

@@ -121,3 +121,11 @@ endmodule
 
 
 ![counter_wave](https://user-images.githubusercontent.com/53760504/229285385-1e16b8cd-13e4-4cce-9416-e3ec7391527e.png)
+## Configuring SRC files and Scripts
+<p align="center">
+<img src="https://user-images.githubusercontent.com/53760504/229297491-5a1e0a76-a603-4a0f-969c-52c18de33e75.png">
+<img src="https://user-images.githubusercontent.com/53760504/229297866-f5c6dd40-8b7e-458a-811b-409531cf2919.png">
+<img src="https://user-images.githubusercontent.com/53760504/229297931-88c8d812-101b-4dd8-8468-66fc81bafeef.png">
+</p>
+- Facing this Error After Making Changes According to The Verilog Files<br/>
+![image](https://user-images.githubusercontent.com/53760504/229298183-5b18dd98-0d71-46e2-b3e3-b6ca6da55a90.png)

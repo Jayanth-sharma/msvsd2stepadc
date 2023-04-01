@@ -46,6 +46,13 @@
 ## Final GDS
 ![async_counter](https://user-images.githubusercontent.com/53760504/229285314-ef3187d7-4a1e-4e20-a112-e5c75e0edd71.png)
 ## Area- Optimisation of the Design
+- Now Add `manual_macros.tcl` in blocks Folder
+![image](https://user-images.githubusercontent.com/53760504/229288596-0a76d8e6-9e41-4d8e-957a-a851828c0a83.png)
+- Add the Line `29-30` to place the Blocks
+ ![image](https://user-images.githubusercontent.com/53760504/229288980-24be6a97-134c-45ea-8dd2-fba234d8ed73.png)
+- where `MACRO_PLACE_HALO` defines the Space Between the Macros.
+- And `MARCO_PLACE_CHANNEL` defines Wiring Space.
+- And the Macro placement TCL files
 ![area_optimized_Analog_blocks](https://user-images.githubusercontent.com/53760504/229285336-becdbe92-db77-4bfb-8720-e78aee6276e4.png)
 ![analog_blockmag](https://user-images.githubusercontent.com/53760504/229285340-4205d8b7-7379-4d25-aa1a-02c27d3237e5.png)
 ## Including 4-Bit Counter into the Design.

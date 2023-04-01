@@ -6,7 +6,9 @@
 |3    |Comparator Circuit Pre-Layout Analysis|:heavy_check_mark:|
 |4    |Design of a 1-bit ADC Blocks|:heavy_check_mark:|
 |5    |Comparator Circuit Post-layout Using ALIGN|:heavy_check_mark:|
-|6    |Dummy Verilog Codes for Analog Blocks|:heavy_check_mark:|
+|6    |Comparsion of Pre-layout vs Post Layout of Analog BLocks using ALIGN|:heavy_check_mark:..|
+|7    |One-bit Comparator Post-layout Analysis|:heavy_check_mark:|
+|8    |Dummy Verilog Codes for Analog Blocks|:heavy_check_mark:|
 ## Ring Ocillator Prelayout Analysis
 The RO design Last Week is Not Compatable with the Comparator(Block) As the RO Frequency is High.So,By increasing the Width,Length Across the circuit the tpd of Unit Inverter is Increased.Hence Decresing the Oscillating Frequency.
 !<img src="https://github.com/Jayanth-sharma/msvsd2stepadc/blob/main/Week5/images/ring_0sc_prelayout.png">
@@ -39,3 +41,5 @@ The RO design Last Week is Not Compatable with the Comparator(Block) As the RO F
 ## Full 1-Bit ADC Post-layout Analysis
 - Error with Generating Resistor Bridge with Align <br/>
 - Tring to Figure out or Attaching Manually <br/>
+## Dummy Verilog Codes for Analog Blocks
+

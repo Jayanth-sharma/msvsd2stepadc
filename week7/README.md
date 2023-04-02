@@ -21,6 +21,8 @@
     
     
     ![two_bitadc_ckt](https://user-images.githubusercontent.com/53760504/229358700-3198e0ef-5d59-41c2-acb1-73f0764a5eb6.png)
-    ![two_BitADC_Test](https://user-images.githubusercontent.com/53760504/229358734-3b453689-37cd-4179-a4b2-620ad2267d56.png)
-    ![image](https://user-images.githubusercontent.com/53760504/229366755-3593ee78-2e11-4af5-b790-e21e5e5795e4.png)
+    ![image](https://user-images.githubusercontent.com/53760504/229370293-b4c86b32-768b-46c1-8f1e-fafe64d0ee68.png)
+    ![image](https://user-images.githubusercontent.com/53760504/229369963-8b3db435-6217-4dcb-aeb9-7c747c696281.png)  
+    ![image](https://user-images.githubusercontent.com/53760504/229370159-a1e8dc35-0a3b-4f3b-8f47-8d05a475c1db.png)
+
 ## Post-layout Analysis of Two Step Flash ADC

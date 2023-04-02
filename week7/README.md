@@ -9,3 +9,17 @@
 |6 |Postlayout Analysis of 2-bit DAC Circuit|:x:|
 
 ## Prelayout Analysis of Two Bit Flash ADC
+- Analog-Digital Converter Consists of a 3-Comparator Circuits and Resistive Bridge.<br/>
+- The Output of the ADC Analog Block is As Follows.<br/>
+ - 2 bit Flash ADC:
+    | input Voltage      |    C3C2C1     |   b1b0     |
+    | -------------      | ------------- |------------|
+    | 0<Vin<Vref/4       |     000       |    00      |
+    | Vref/4<Vin<Vref/2  |     001       |    01      |
+    | Verf/2<Vin<Vref    |     011       |    10      |
+    | Vref<Vin           |     111       |    11      |
+    
+    
+    ![two_bitadc_ckt](https://user-images.githubusercontent.com/53760504/229358700-3198e0ef-5d59-41c2-acb1-73f0764a5eb6.png)
+    ![two_BitADC_Test](https://user-images.githubusercontent.com/53760504/229358734-3b453689-37cd-4179-a4b2-620ad2267d56.png)
+    ![two_bit_adc](https://user-images.githubusercontent.com/53760504/229358683-760cd329-411a-45eb-b26d-65200c52d400.png)

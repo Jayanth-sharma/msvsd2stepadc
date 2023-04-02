@@ -8,4 +8,4 @@
 |5 |Pre-layout Analysis of 2-bit DAC Circuit|:heavy_check_mark:|
 |6 |Postlayout Analysis of 2-bit DAC Circuit|:x:|
 
-## Prelayout Analysis of Two Bit ADC
+## Prelayout Analysis of Two Bit Flash ADC

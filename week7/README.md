@@ -32,4 +32,6 @@
 <img weight="400"  src="https://user-images.githubusercontent.com/53760504/229450299-0e53d175-7936-45b2-b091-6970d7b2acaa.png">
 <img weigth="400"  src="https://user-images.githubusercontent.com/53760504/229450795-ed898059-067f-43f1-bb7d-b16b9c003d08.png">
 </p>
-- Extracted Netlist From Magic After Modification.
+- Extracted Netlist From Magic After Modification.<br/>
+
+![image](https://user-images.githubusercontent.com/53760504/229471327-2ed91f4d-c61e-4391-a546-6ef19f92835b.png)

@@ -44,4 +44,6 @@
 :------------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/53760504/229501982-af092483-b829-4ae2-ba3e-de7be7ca5782.png)|![](https://user-images.githubusercontent.com/53760504/229503748-6dbf6f8d-01b0-474e-9b12-fbcb45da59d6.png)
 
+## Pre-layout Analysis of 2-bit DAC Circuit
+
 

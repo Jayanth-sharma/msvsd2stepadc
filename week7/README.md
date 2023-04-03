@@ -27,3 +27,9 @@
     ![image](https://user-images.githubusercontent.com/53760504/229433384-8cf98706-db26-4820-8a05-50502c4ab8ac.png)
 
 ## Post-layout Analysis of Two Step Flash ADC
+- Here is the `Twobit_Flash_ADC.sp`:
+<p align="center">
+<img weight="400"  src="https://user-images.githubusercontent.com/53760504/229450299-0e53d175-7936-45b2-b091-6970d7b2acaa.png">
+<img weigth="400"  src="https://user-images.githubusercontent.com/53760504/229450795-ed898059-067f-43f1-bb7d-b16b9c003d08.png">
+</p>
+- Extracted Netlist From Magic After Modification.

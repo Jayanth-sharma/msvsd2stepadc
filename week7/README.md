@@ -40,5 +40,6 @@
 ## Comprasion Between Prelayout and Postlayout Analysis of Comparator
 | Prelayout - At 100Mhz    |  Postlayout -At 100MHz   |
 :-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/53760504/229501982-af092483-b829-4ae2-ba3e-de7be7ca5782.png)|![](https://user-images.githubusercontent.com/53760504/229502349-d675a001-4714-488c-9a1e-e1ffff7eaf8a.png)
+![](https://user-images.githubusercontent.com/53760504/229501982-af092483-b829-4ae2-ba3e-de7be7ca5782.png)|![](https://user-images.githubusercontent.com/53760504/229503748-6dbf6f8d-01b0-474e-9b12-fbcb45da59d6.png)
+
 

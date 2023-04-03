@@ -28,18 +28,20 @@
     </p>
 ## Post-layout Analysis of Two Step Flash ADC
 - Here is the `Twobit_Flash_ADC.sp`:
-<p align="center">
-<img weight="400"  src="https://user-images.githubusercontent.com/53760504/229450299-0e53d175-7936-45b2-b091-6970d7b2acaa.png">
-<img weigth="400"  src="https://user-images.githubusercontent.com/53760504/229450795-ed898059-067f-43f1-bb7d-b16b9c003d08.png">
-</p>
+
+
+|     GDS File              |      Lef file              |
+:--------------------------:|:---------------------------:
+![](https://user-images.githubusercontent.com/53760504/229450299-0e53d175-7936-45b2-b091-6970d7b2acaa.png)|![](https://user-images.githubusercontent.com/53760504/229450795-ed898059-067f-43f1-bb7d-b16b9c003d08.png)
+
 - Extracted Netlist From Magic After Modification.<br/>
 - Facing Error With C1 Signal.
 
 ![image](https://user-images.githubusercontent.com/53760504/229471327-2ed91f4d-c61e-4391-a546-6ef19f92835b.png)
 - This Raised Due to Prasitics in the Layout.Which are minimising the Frequency of Operation.(1Ghz)
 ## Comprasion Between Prelayout and Postlayout Analysis of Comparator
-| Prelayout - At 100Mhz    |  Postlayout -At 100MHz   |
-:-------------------------:|:-------------------------:
+| Prelayout - At 100Mhz         |  Postlayout -At 100MHz   |
+:------------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/53760504/229501982-af092483-b829-4ae2-ba3e-de7be7ca5782.png)|![](https://user-images.githubusercontent.com/53760504/229503748-6dbf6f8d-01b0-474e-9b12-fbcb45da59d6.png)
 
 

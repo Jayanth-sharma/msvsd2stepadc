@@ -21,7 +21,7 @@
     
     
     ![two_bitadc_ckt](https://user-images.githubusercontent.com/53760504/229358700-3198e0ef-5d59-41c2-acb1-73f0764a5eb6.png)
-    ![image](https://user-images.githubusercontent.com/53760504/229370293-b4c86b32-768b-46c1-8f1e-fafe64d0ee68.png)
+    ![image](https://user-images.githubusercontent.com/53760504/229436323-0d16a1ea-0ea6-4b6b-a45d-558074c01b60.png)
     ![image](https://user-images.githubusercontent.com/53760504/229369963-8b3db435-6217-4dcb-aeb9-7c747c696281.png)  
     ![image](https://user-images.githubusercontent.com/53760504/229370159-a1e8dc35-0a3b-4f3b-8f47-8d05a475c1db.png)
     ![image](https://user-images.githubusercontent.com/53760504/229433384-8cf98706-db26-4820-8a05-50502c4ab8ac.png)

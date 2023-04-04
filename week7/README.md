@@ -7,6 +7,8 @@
 |4 |Post-layout Analysis of Sample and Hold Circuit|:x:|
 |5 |Pre-layout Analysis of 2-bit DAC Circuit|:heavy_check_mark:|
 |6 |Postlayout Analysis of 2-bit DAC Circuit|:x:|
+|7 |Residue Amplifier Circuit|:x:|
+|8 |Post-Layout Residue Amplifier Circuit|:x:|
 
 ## Prelayout Analysis of Two Bit Flash ADC
 - Analog-Digital Converter Consists of a 3-Comparator Circuits and Resistive Bridge.<br/>

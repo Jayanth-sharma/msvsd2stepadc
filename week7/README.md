@@ -35,14 +35,16 @@
 ![](https://user-images.githubusercontent.com/53760504/229450299-0e53d175-7936-45b2-b091-6970d7b2acaa.png)|![](https://user-images.githubusercontent.com/53760504/229450795-ed898059-067f-43f1-bb7d-b16b9c003d08.png)
 
 - Extracted Netlist From Magic After Modification.<br/>
-- Facing Error With C1 Signal.
+- Facing Error With C2,C3 Signal.
 
-![image](https://user-images.githubusercontent.com/53760504/229471327-2ed91f4d-c61e-4391-a546-6ef19f92835b.png)
+![image](https://user-images.githubusercontent.com/53760504/229669659-0cb87aea-770e-42aa-8910-929699524425.png)
+
 - This Raised Due to Prasitics in the Layout.Which are minimising the Frequency of Operation.(1Ghz)
 ## Comprasion Between Prelayout and Postlayout Analysis of Comparator
 | Prelayout - At 100Mhz         |  Postlayout -At 100MHz   |
 :------------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/53760504/229501982-af092483-b829-4ae2-ba3e-de7be7ca5782.png)|![](https://user-images.githubusercontent.com/53760504/229503748-6dbf6f8d-01b0-474e-9b12-fbcb45da59d6.png)
+![](https://user-images.githubusercontent.com/53760504/229501982-af092483-b829-4ae2-ba3e-de7be7ca5782.png)|![](https://user-images.githubusercontent.com/53760504/229668911-a8102aa3-575f-4c18-84c9-8a4c0510d17b.png)
+
 
 ## Pre-layout Analysis of 2-bit DAC Circuit
 

@@ -49,5 +49,15 @@
 
 
 ## Pre-layout Analysis of 2-bit DAC Circuit
+### Switch design and simulation
+- This Circit is Showing Error in delay/Chrastristics then the Standard one [avsddac_3v3_sky130](https://github.com/vsdip/avsddac_3v3_sky130_v1#switch-design-and-simulation).
 
+![switch_sch](https://user-images.githubusercontent.com/53760504/230095482-4426b406-672b-4a47-9be3-f6cdfb111cc7.png)
 
+![switch_tb](https://user-images.githubusercontent.com/53760504/230095548-d869229d-d5c5-4ac1-9749-985309817eea.png)
+
+![error_switch](https://user-images.githubusercontent.com/53760504/230097780-a687c571-99dd-480c-a0d4-c7e7490039b1.png)
+### Pre-layout Analysis of 2-bit DAC
+![tb_2bit_dac](https://user-images.githubusercontent.com/53760504/230098800-ba18c12a-cf04-4f7b-af58-d9d234c70c00.png)
+- The Error in Switch has Tolerated the Output of of 2bit-DAC to invert.
+![two_bit_dac_out_error](https://user-images.githubusercontent.com/53760504/230098834-96c9a331-50eb-4038-b542-f97dbbc242bd.png)

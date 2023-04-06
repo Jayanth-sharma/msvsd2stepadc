@@ -54,12 +54,23 @@
 
 ![image](https://user-images.githubusercontent.com/53760504/230348712-f62cac16-8778-417e-9afa-841c401384ec.png)
 
-![switch_sch](https://user-images.githubusercontent.com/53760504/230095482-4426b406-672b-4a47-9be3-f6cdfb111cc7.png)
+![image](https://user-images.githubusercontent.com/53760504/230353711-efa6087f-02ec-4065-9548-f1b4b9901d8d.png)
 
-![switch_tb](https://user-images.githubusercontent.com/53760504/230095548-d869229d-d5c5-4ac1-9749-985309817eea.png)
+![image](https://user-images.githubusercontent.com/53760504/230354559-0a6c46a2-8628-4a9e-84e4-6839a95df71a.png)
 
-![error_switch](https://user-images.githubusercontent.com/53760504/230097780-a687c571-99dd-480c-a0d4-c7e7490039b1.png)
+![image](https://user-images.githubusercontent.com/53760504/230355148-095b8ec8-8b10-446a-9d0e-6669281945fe.png)
+
 ### Pre-layout Analysis of 2-bit DAC
-![tb_2bit_dac](https://user-images.githubusercontent.com/53760504/230098800-ba18c12a-cf04-4f7b-af58-d9d234c70c00.png)
-- The Error in Switch has Tolerated the Output of of 2bit-DAC to invert.
-![two_bit_dac_out_error](https://user-images.githubusercontent.com/53760504/230098834-96c9a331-50eb-4038-b542-f97dbbc242bd.png)
+![image](https://user-images.githubusercontent.com/53760504/230355866-d213229a-e940-4a10-8ef2-2496cc1a476a.png)
+
+![image](https://user-images.githubusercontent.com/53760504/230358961-a0810c32-f132-49af-9e31-759d7c89cfec.png)
+
+![image](https://user-images.githubusercontent.com/53760504/230359140-06357322-ee91-49ef-8cc0-4ffa1a5d212f.png)
+
+## Post-layout Analysis of 2-Bit DAC
+|     GDS File              |      Lef file              |
+:--------------------------:|:---------------------------:
+![image](https://user-images.githubusercontent.com/53760504/230377361-f92fcfca-6570-4fac-9392-fc665c95cb12.png)|![image](https://user-images.githubusercontent.com/53760504/230377449-94aaf218-33e0-4125-9bc2-564691013471.png)
+- Some Glitch with Prasitics.<br/>
+![image](https://user-images.githubusercontent.com/53760504/230375996-880ba0c6-4103-42f3-a24e-5be9223ff4da.png)
+

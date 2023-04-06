@@ -6,8 +6,8 @@
 |3 |Pre-layout Analysis of Sample and Hold Circuit|:heavy_check_mark:|
 |4 |Post-layout Analysis of Sample and Hold Circuit|:x:|
 |5 |Pre-layout Analysis of 2-bit DAC Circuit|:heavy_check_mark:|
-|6 |Postlayout Analysis of 2-bit DAC Circuit|:x:|
-|7 |Residue Amplifier Circuit|:x:|
+|6 |Postlayout Analysis of 2-bit DAC Circuit|:heavy_check_mark:|
+|7 |Residue Amplifier Circuit|:heavy_check_mark:|
 |8 |Post-Layout Residue Amplifier Circuit|:x:|
 
 ## Prelayout Analysis of Two Bit Flash ADC

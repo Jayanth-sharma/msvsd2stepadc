@@ -52,6 +52,8 @@
 ### Switch design and simulation
 - This Circit is Showing Error in delay/Chrastristics then the Standard one [avsddac_3v3_sky130](https://github.com/vsdip/avsddac_3v3_sky130_v1#switch-design-and-simulation).
 
+![image](https://user-images.githubusercontent.com/53760504/230348712-f62cac16-8778-417e-9afa-841c401384ec.png)
+
 ![switch_sch](https://user-images.githubusercontent.com/53760504/230095482-4426b406-672b-4a47-9be3-f6cdfb111cc7.png)
 
 ![switch_tb](https://user-images.githubusercontent.com/53760504/230095548-d869229d-d5c5-4ac1-9749-985309817eea.png)

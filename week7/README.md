@@ -9,7 +9,12 @@
 |6 |Postlayout Analysis of 2-bit DAC Circuit|:heavy_check_mark:|
 |7 |Residue Amplifier Circuit|:heavy_check_mark:|
 |8 |Post-Layout Residue Amplifier Circuit|:x:|
-
+# Two-Step Flash ADC Specifications
+- To Design a Subranging ADC we Neea the Following Blocks.<br/>
+![image](https://user-images.githubusercontent.com/53760504/230632429-7ce61585-d8c8-447d-b613-2210b05f7771.png)
+- (Note:The DAC block Should be 4 bit Accurate).<br/>
+- Fine ADC With More Accurate Resolution.<br/>
+- Design Spec to Consider.<br/>
 ## Prelayout Analysis of Two Bit Flash ADC
 - Analog-Digital Converter Consists of a 3-Comparator Circuits and Resistive Bridge.<br/>
 - The Output of the ADC Analog Block is As Follows.<br/>

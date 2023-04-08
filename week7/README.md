@@ -90,3 +90,4 @@
 - Two Bit ADC:
 - Delay,Rise Time,Fall Time.
 - DAC Resolution,settling Time,Overshoots(INL,DNL).
+- Connecting Resistors with References :x:

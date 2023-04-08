@@ -79,3 +79,14 @@
 - Some Glitch with Prasitics.<br/>
 ![image](https://user-images.githubusercontent.com/53760504/230375996-880ba0c6-4103-42f3-a24e-5be9223ff4da.png)
 
+|      Connects Ports          |      Power Ports           |
+:-----------------------------:|:---------------------------:
+![Port2_DAC](https://user-images.githubusercontent.com/53760504/230708022-21d6c9b6-4ffc-4efc-a6df-cc23f52080b5.png)|![](https://user-images.githubusercontent.com/53760504/230707936-1a9dbf1a-59af-4f26-b7a9-941e191d92f2.png)
+
+- There Still Some Issue with a Port at Layout<br/>
+![DAC_Postlayout](https://user-images.githubusercontent.com/53760504/230708168-0e9198fc-88dd-4aa4-bb16-a24332375716.png)
+## TODO
+## Comparasion of Post-layout vs Prelayout
+- Two Bit ADC:
+- Delay,Rise Time,Fall Time.
+- DAC Resolution,settling Time,Overshoots(INL,DNL).

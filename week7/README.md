@@ -46,7 +46,7 @@
 
 ![image](https://user-images.githubusercontent.com/53760504/229669659-0cb87aea-770e-42aa-8910-929699524425.png)
 
-- This Raised Due to Prasitics in the Layout.Which are minimising the Frequency of Operation.(1Ghz)
+- This Raised Due to Prasitics in the Layout.Which are minimising the Frequency of Operation.(1Ghz,Max-600MHz)
 ## Comprasion Between Prelayout and Postlayout Analysis of Comparator
 | Prelayout - At 100Mhz         |  Postlayout -At 100MHz   |
 :------------------------------:|:-------------------------:

@@ -13,4 +13,4 @@
 | 4|[4-bit Asynchronous Counter GDS Files Generation](https://github.com/Jayanth-sharma/msvsd2stepadc/tree/main/week4)|:heavy_check_mark:|
 | 5,6|[OpenFASOC Implementation of Asynchronous Counter](https://github.com/Jayanth-sharma/msvsd2stepadc/tree/main/Week6)|:heavy_check_mark:|
 | 7|[Two-Bit Flash ADC And Sample and Hold Circuit](https://github.com/Jayanth-sharma/msvsd2stepadc/tree/main/week7)   |:heavy_check_mark:|
-| 8|[Two-Bit Flash ADC,DAC with Resistor Bridge,SHA and Residue Amplifier and Analysis]|:o:|
+| 8|[Two-Bit Flash ADC,DAC with Resistor Bridge,SHA and Residue Amplifier and Analysis]()-for Specs|:o:|

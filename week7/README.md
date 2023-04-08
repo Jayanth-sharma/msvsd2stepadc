@@ -55,7 +55,7 @@
 
 ## Pre-layout Analysis of 2-bit DAC Circuit
 ### Switch design and simulation
-- This Circit is Showing Error in delay/Chrastristics then the Standard one [avsddac_3v3_sky130_v2](https://github.com/vsdip/avsddac_3v3_sky130_v2).
+- This Chractristics then the Standard one [avsddac_3v3_sky130_v2](https://github.com/vsdip/avsddac_3v3_sky130_v2).
 
 ![image](https://user-images.githubusercontent.com/53760504/230348712-f62cac16-8778-417e-9afa-841c401384ec.png)
 

@@ -4,11 +4,11 @@
 |1 |Pre-Layout Analysis of Two-Bit ADC(Course)|:heavy_check_mark:|
 |2 |Post-layout Analysis of Two-bit ADC(Course)|:heavy_check_mark:|
 |3 |Pre-layout Analysis of Sample and Hold Circuit|:heavy_check_mark:|
-|4 |Post-layout Analysis of Sample and Hold Circuit|:x:|
+|4 |Post-layout Analysis of Sample and Hold Circuit|:heavy_check_mark:|
 |5 |Pre-layout Analysis of 2-bit DAC Circuit|:heavy_check_mark:|
 |6 |Postlayout Analysis of 2-bit DAC Circuit|:heavy_check_mark:|
 |7 |Residue Amplifier Circuit|:heavy_check_mark:|
-|8 |Post-Layout Residue Amplifier Circuit|:x:|
+|8 |Post-Layout Residue Amplifier Circuit|:heavy_check_mark:|
 # Two-Step Flash ADC Specifications
 - To Design a Subranging ADC we Neea the Following Blocks.<br/>
 ![image](https://user-images.githubusercontent.com/53760504/230632429-7ce61585-d8c8-447d-b613-2210b05f7771.png)

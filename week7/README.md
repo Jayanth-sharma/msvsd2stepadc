@@ -85,6 +85,15 @@
 
 - There Still Some Issue with a Port at Layout<br/>
 ![DAC_Postlayout](https://user-images.githubusercontent.com/53760504/230708168-0e9198fc-88dd-4aa4-bb16-a24332375716.png)
+## Sample and Hold Circuit Pre-layout Analysis
+- 
+## Sample and Hold Circuit Post-Layout Analysis
+- 
+## Subtrator and Residue Amplifier Pre-layout Analysis
+-
+## Subtractor And Residue Amplifer Post-layout Analysis
+-
+
 ## TODO
 ## Comparasion of Post-layout vs Prelayout
 - Two Bit ADC:

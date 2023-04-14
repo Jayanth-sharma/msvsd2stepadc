@@ -1,0 +1,13 @@
+** sch_path: /home/vinayreddy/Desktop/mspdr/week7/pre-layout/untitled.sch
+**.subckt untitled GND Vref1 Vref2 Vref3 VCC
+*.iopin GND
+*.opin Vref1
+*.opin Vref2
+*.opin Vref3
+*.iopin VCC
+R1 Vref1 VCC sky130_fd_pr__res_generic_l1 W=1 L=1 m=1
+R2 Vref2 Vref1 sky130_fd_pr__res_generic_l1 W=1 L=1 m=1
+R3 GND Vref3 sky130_fd_pr__res_generic_l1 W=1 L=1 m=1
+R4 Vref3 Vref2 sky130_fd_pr__res_generic_l1 W=1 L=1 m=1
+**.ends
+.end

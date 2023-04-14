@@ -1,0 +1,167 @@
+* SPICE3 file created from TWOBIT_DAC.ext - technology: sky130A
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.subckt TWOBIT_DAC OUT GND X1_INP1 X2_INP1 X2_INP2 D0 D1 VDD
+X0 X2_INP1 a_3296_561# a_2211_882# VDD sky130_fd_pr__pfet_01v8 ad=6.678e+11p pd=6.1e+06u as=1.3734e+12p ps=1.226e+07u w=1.26e+06u l=150000u
+X1 X2_INP2 a_3296_561# a_2211_882# GND sky130_fd_pr__nfet_01v8 ad=3.339e+11p pd=3.58e+06u as=8.442e+11p ps=8.98e+06u w=630000u l=150000u
+X2 a_2211_882# a_3296_1764# X2_INP1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.764e+11p ps=1.82e+06u w=630000u l=150000u
+X3 a_663_1953# a_200_1233# X1_INP1 VDD sky130_fd_pr__pfet_01v8 ad=1.6884e+12p pd=1.528e+07u as=6.678e+11p ps=6.1e+06u w=1.26e+06u l=150000u
+X4 OUT a_1748_561# a_2211_882# GND sky130_fd_pr__nfet_01v8 ad=5.103e+11p pd=5.4e+06u as=0p ps=0u w=630000u l=150000u
+X5 a_1748_1764# a_1748_561# VDD VDD sky130_fd_pr__pfet_01v8 ad=3.528e+11p pd=3.08e+06u as=4.0068e+12p ps=3.66e+07u w=1.26e+06u l=150000u
+X6 GND a_1748_561# a_1748_1764# GND sky130_fd_pr__nfet_01v8 ad=2.0034e+12p pd=2.148e+07u as=1.764e+11p ps=1.82e+06u w=630000u l=150000u
+X7 a_1748_561# D1 GND GND sky130_fd_pr__nfet_01v8 ad=1.764e+11p pd=1.82e+06u as=0p ps=0u w=630000u l=150000u
+X8 a_2211_882# a_1748_1764# OUT VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=1.0206e+12p ps=9.18e+06u w=1.26e+06u l=150000u
+X9 a_230_1491# a_200_1233# VDD VDD sky130_fd_pr__pfet_01v8 ad=3.528e+11p pd=3.08e+06u as=0p ps=0u w=1.26e+06u l=150000u
+X10 GND D1 a_1748_561# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X11 a_2211_882# a_1748_561# OUT GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X12 a_1748_1764# a_1748_561# GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X13 OUT a_1748_1764# a_2211_882# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X14 VDD a_200_1233# a_230_1491# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X15 X1_INP1 a_200_1233# a_663_1953# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X16 a_663_1953# a_200_1233# a_663_882# GND sky130_fd_pr__nfet_01v8 ad=6.867e+11p pd=7.22e+06u as=3.339e+11p ps=3.58e+06u w=630000u l=150000u
+X17 OUT a_1748_561# a_663_1953# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X18 VDD D0 a_200_1233# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=3.528e+11p ps=3.08e+06u w=1.26e+06u l=150000u
+X19 a_230_1491# a_200_1233# GND GND sky130_fd_pr__nfet_01v8 ad=1.764e+11p pd=1.82e+06u as=0p ps=0u w=630000u l=150000u
+X20 a_200_1233# D0 GND GND sky130_fd_pr__nfet_01v8 ad=1.764e+11p pd=1.82e+06u as=0p ps=0u w=630000u l=150000u
+X21 a_1748_561# D1 VDD VDD sky130_fd_pr__pfet_01v8 ad=3.528e+11p pd=3.08e+06u as=0p ps=0u w=1.26e+06u l=150000u
+X22 GND a_200_1233# a_230_1491# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X23 a_663_882# a_230_1491# a_663_1953# VDD sky130_fd_pr__pfet_01v8 ad=3.528e+11p pd=3.08e+06u as=0p ps=0u w=1.26e+06u l=150000u
+X24 a_200_1233# D0 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X25 a_3296_561# D0 VDD VDD sky130_fd_pr__pfet_01v8 ad=3.528e+11p pd=3.08e+06u as=0p ps=0u w=1.26e+06u l=150000u
+X26 GND D0 a_200_1233# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X27 VDD D1 a_1748_561# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X28 a_663_882# a_200_1233# a_663_1953# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X29 a_663_1953# a_1748_561# OUT VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X30 a_663_1953# a_230_1491# a_663_882# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X31 a_3296_1764# a_3296_561# VDD VDD sky130_fd_pr__pfet_01v8 ad=3.528e+11p pd=3.08e+06u as=0p ps=0u w=1.26e+06u l=150000u
+X32 VDD D0 a_3296_561# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X33 a_3296_561# D0 GND GND sky130_fd_pr__nfet_01v8 ad=1.764e+11p pd=1.82e+06u as=0p ps=0u w=630000u l=150000u
+X34 X2_INP2 a_3296_1764# a_2211_882# VDD sky130_fd_pr__pfet_01v8 ad=3.528e+11p pd=3.08e+06u as=0p ps=0u w=1.26e+06u l=150000u
+X35 VDD a_3296_561# a_3296_1764# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X36 GND D0 a_3296_561# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X37 a_663_1953# a_230_1491# X1_INP1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.764e+11p ps=1.82e+06u w=630000u l=150000u
+X38 a_2211_882# a_3296_561# X2_INP1 VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X39 a_2211_882# a_3296_1764# X2_INP2 VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X40 a_3296_1764# a_3296_561# GND GND sky130_fd_pr__nfet_01v8 ad=1.764e+11p pd=1.82e+06u as=0p ps=0u w=630000u l=150000u
+X41 a_663_1953# a_1748_1764# OUT GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X42 GND a_3296_561# a_3296_1764# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X43 X1_INP1 a_230_1491# a_663_1953# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X44 X2_INP1 a_3296_1764# a_2211_882# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X45 VDD a_1748_561# a_1748_1764# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.26e+06u l=150000u
+X46 OUT a_1748_1764# a_663_1953# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+X47 a_2211_882# a_3296_561# X2_INP2 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=630000u l=150000u
+C0 a_663_882# a_663_1953# 1.70fF
+C1 a_230_1491# a_1748_561# 0.00fF
+C2 a_200_1233# OUT 0.00fF
+C3 a_1748_1764# X1_INP1 0.00fF
+C4 a_2211_882# a_1748_1764# 0.21fF
+C5 X2_INP2 a_3296_561# 0.34fF
+C6 a_3296_1764# a_3296_561# 0.41fF
+C7 X2_INP2 a_1748_561# 0.00fF
+C8 VDD a_3296_561# 4.12fF
+C9 a_663_882# a_1748_1764# 0.00fF
+C10 a_3296_1764# a_1748_561# 0.01fF
+C11 VDD a_1748_561# 4.42fF
+C12 a_1748_1764# D1 0.00fF
+C13 OUT X1_INP1 0.00fF
+C14 a_2211_882# OUT 1.61fF
+C15 a_663_1953# a_1748_1764# 0.11fF
+C16 VDD a_230_1491# 1.94fF
+C17 a_2211_882# X2_INP1 1.84fF
+C18 a_663_882# OUT 0.00fF
+C19 D0 a_3296_561# 0.25fF
+C20 a_3296_1764# X2_INP2 0.11fF
+C21 D0 a_1748_561# 0.08fF
+C22 a_663_1953# OUT 1.87fF
+C23 VDD X2_INP2 0.35fF
+C24 a_200_1233# a_1748_561# 0.04fF
+C25 VDD a_3296_1764# 1.96fF
+C26 D0 a_230_1491# 0.00fF
+C27 a_663_1953# X2_INP1 0.00fF
+C28 a_200_1233# a_230_1491# 0.49fF
+C29 a_2211_882# a_3296_561# 0.39fF
+C30 D0 a_3296_1764# 0.00fF
+C31 X1_INP1 a_1748_561# 0.00fF
+C32 a_2211_882# a_1748_561# 0.57fF
+C33 a_1748_1764# OUT 0.29fF
+C34 D0 VDD 4.34fF
+C35 X1_INP1 a_230_1491# 0.11fF
+C36 VDD a_200_1233# 4.14fF
+C37 a_2211_882# a_230_1491# 0.00fF
+C38 a_1748_1764# X2_INP1 0.00fF
+C39 a_663_882# a_1748_561# 0.00fF
+C40 D1 a_3296_561# 0.00fF
+C41 a_663_1953# a_3296_561# 0.00fF
+C42 D1 a_1748_561# 0.20fF
+C43 a_663_882# a_230_1491# 0.10fF
+C44 a_663_1953# a_1748_561# 0.11fF
+C45 a_2211_882# X2_INP2 1.63fF
+C46 X2_INP1 OUT 0.00fF
+C47 a_663_1953# a_230_1491# 0.23fF
+C48 a_2211_882# a_3296_1764# 0.29fF
+C49 D0 a_200_1233# 0.24fF
+C50 VDD X1_INP1 0.36fF
+C51 VDD a_2211_882# 2.70fF
+C52 VDD a_663_882# 0.35fF
+C53 a_1748_1764# a_3296_561# 0.00fF
+C54 VDD D1 0.83fF
+C55 a_1748_1764# a_1748_561# 0.42fF
+C56 VDD a_663_1953# 1.23fF
+C57 a_1748_1764# a_230_1491# 0.04fF
+C58 a_200_1233# X1_INP1 0.10fF
+C59 a_2211_882# a_200_1233# 0.00fF
+C60 OUT a_3296_561# 0.00fF
+C61 X2_INP1 a_3296_561# 0.11fF
+C62 a_663_882# a_200_1233# 0.35fF
+C63 OUT a_1748_561# 0.39fF
+C64 D0 D1 0.78fF
+C65 X2_INP1 a_1748_561# 0.02fF
+C66 a_200_1233# D1 0.00fF
+C67 a_1748_1764# X2_INP2 0.00fF
+C68 OUT a_230_1491# 0.00fF
+C69 a_3296_1764# a_1748_1764# 0.01fF
+C70 a_663_1953# a_200_1233# 0.41fF
+C71 VDD a_1748_1764# 1.99fF
+C72 a_2211_882# X1_INP1 0.00fF
+C73 a_663_882# X1_INP1 0.08fF
+C74 X2_INP2 OUT 0.00fF
+C75 a_2211_882# a_663_882# 0.00fF
+C76 a_3296_1764# OUT 0.00fF
+C77 X2_INP2 X2_INP1 0.06fF
+C78 VDD OUT 0.75fF
+C79 a_3296_1764# X2_INP1 0.11fF
+C80 D0 a_1748_1764# 0.00fF
+C81 a_663_1953# X1_INP1 1.73fF
+C82 a_2211_882# a_663_1953# 0.07fF
+C83 VDD X2_INP1 0.46fF
+C84 a_1748_1764# a_200_1233# 0.00fF
+C85 a_1748_561# a_3296_561# 0.03fF
+C86 X2_INP2 GND 0.35fF
+C87 X2_INP1 GND 0.04fF
+C88 X1_INP1 GND 0.10fF
+C89 D1 GND 0.70fF
+C90 VDD GND 40.95fF
+C91 a_663_882# GND 0.20fF 
+C92 a_3296_1764# GND 1.35fF
+C93 a_1748_1764# GND 1.21fF
+C94 a_230_1491# GND 1.17fF
+C95 a_3296_561# GND 1.12fF
+C96 a_1748_561# GND 0.83fF
+C97 a_200_1233# GND 1.18fF
+.ends TWOBIT_DAC
+
+x1 OUT GND X1_INP1 X2_INP1 X2_INP2 D0 D1 VDD TWOBIT_DAC  
+V1 X2_INP2 GND 0.1
+V2 X1_INP1 GND 2.5
+V3 X1_INP2 GND 1.7
+V4 X2_INP1 GND 0.9
+V5 D0 GND pulse(0 1.8 0n 1p 1p 5n 10n)
+V6 VDD GND 3.3
+V7 D1 GND pulse(0 1.8 0n 1p 1p 10n 20n)
+
+.tran 10p 20n
+.control
+run
+plot v(D0) v(D1) v(OUT)
+save all
+.endc
+

@@ -45,24 +45,8 @@ N 600 -2040 630 -2040 {
 lab=BIAS}
 N 540 -2180 540 -1870 {
 lab=INN}
-N 540 -1870 630 -1870 {
-lab=INN}
-N 540 -1980 630 -1980 {
-lab=INN}
-N 540 -2080 630 -2080 {
-lab=INN}
-N 580 -1850 630 -1850 {
-lab=#net3}
 N 580 -1960 630 -1960 {
-lab=#net2}
-N 460 -2060 630 -2060 {
-lab=#net1}
-N 460 -1960 580 -1960 {
-lab=#net2}
-N 510 -1850 580 -1850 {
-lab=#net3}
-N 510 -1870 510 -1850 {
-lab=#net3}
+lab=INN}
 N 460 -1870 510 -1870 {
 lab=#net3}
 N 930 -2040 960 -2040 {
@@ -87,6 +71,32 @@ N 930 -1960 970 -1960 {
 lab=C2}
 N 930 -1850 980 -1850 {
 lab=C1}
+N 540 -1870 540 -1850 {
+lab=INN}
+N 510 -1870 510 -1850 {
+lab=#net3}
+N 510 -1850 510 -1830 {
+lab=#net3}
+N 580 -1870 630 -1870 {
+lab=#net3}
+N 580 -1850 630 -1850 {
+lab=INN}
+N 560 -1870 580 -1870 {
+lab=#net3}
+N 540 -2060 630 -2060 {
+lab=INN}
+N 460 -2080 630 -2080 {
+lab=#net1}
+N 460 -1980 630 -1980 {
+lab=#net2}
+N 540 -1960 580 -1960 {
+lab=INN}
+N 540 -1850 580 -1850 {
+lab=INN}
+N 560 -1870 560 -1830 {
+lab=#net3}
+N 510 -1830 560 -1830 {
+lab=#net3}
 C {comp.sym} 780 -2060 0 0 {name=x1}
 C {sky130_fd_pr/res_generic_pd.sym} 460 -2120 0 0 {name=R1
 W=10
@@ -115,11 +125,11 @@ mult=1}
 C {comp.sym} 780 -1960 0 0 {name=x2}
 C {comp.sym} 780 -1850 0 0 {name=x3}
 C {devices/iopin.sym} 1000 -2140 0 0 {name=p1 lab=VCC}
-C {devices/iopin.sym} 960 -1770 0 0 {name=p3 lab=GND}
 C {devices/ipin.sym} 670 -2130 2 0 {name=p2 lab=BIAS}
-C {devices/ipin.sym} 540 -2180 1 0 {name=p4 lab=INN}
-C {devices/ipin.sym} 400 -2170 0 0 {name=p5 lab=INP}
-C {devices/lab_pin.sym} 460 -1770 0 0 {name=p6 sig_type=std_logic lab=GND}
 C {devices/opin.sym} 960 -2060 0 0 {name=p7 lab=C3}
 C {devices/opin.sym} 970 -1960 0 0 {name=p8 lab=C2}
 C {devices/opin.sym} 980 -1850 0 0 {name=p9 lab=C1}
+C {devices/ipin.sym} 540 -2180 1 0 {name=p14 lab=INN}
+C {devices/ipin.sym} 400 -2170 0 0 {name=p4 lab=INP}
+C {devices/iopin.sym} 960 -1770 0 0 {name=p3 lab=GND}
+C {devices/lab_pin.sym} 460 -1770 0 0 {name=p5 sig_type=std_logic lab=GND}

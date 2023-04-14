@@ -5,66 +5,69 @@ K {}
 V {}
 S {}
 E {}
-N 760 -2000 780 -2000 {
+N -280 90 -280 110 {
 lab=GND}
-N 780 -2000 780 -1980 {
+N 180 10 200 10 {
 lab=GND}
-N 300 -2090 310 -2090 {
+N 200 10 200 40 {
+lab=GND}
+N -460 80 -460 100 {
+lab=GND}
+N -350 -10 -350 10 {
+lab=GND}
+N -280 -10 -280 10 {
+lab=GND}
+N -300 10 -280 10 {
+lab=GND}
+N -280 30 -260 30 {
+lab=Vref}
+N -460 20 -440 20 {
+lab=Vin}
+N -350 -70 -330 -70 {
 lab=VCC}
-N 300 -2090 300 -2070 {
+N -280 -70 -260 -70 {
+lab=Vb}
+N -150 -70 -120 -70 {
+lab=Vin}
+N -150 -50 -120 -50 {
+lab=Vref}
+N -150 -30 -120 -30 {
+lab=Vb}
+N 180 -70 200 -70 {
 lab=VCC}
-N 360 -2080 360 -2070 {
-lab=INN}
-N 360 -1990 360 -1970 {
-lab=BIAS}
-N 280 -2010 300 -2010 {
-lab=GND}
-N 350 -2010 360 -2010 {
-lab=GND}
-N 360 -1910 360 -1890 {
-lab=GND}
-N 390 -2130 390 -2110 {
-lab=GND}
-N 440 -2080 460 -2080 {
-lab=INN}
-N 440 -2060 460 -2060 {
-lab=INP}
-N 440 -2040 460 -2040 {
-lab=BIAS}
-N 760 -2060 810 -2060 {
-lab=c3}
-N 760 -2040 810 -2040 {
-lab=c2}
-N 760 -2020 810 -2020 {
-lab=c1}
-N 390 -2200 390 -2190 {
-lab=INP}
-C {Two_BitADC.sym} 610 -2040 0 0 {name=x1}
-C {devices/vsource.sym} 300 -2040 0 0 {name=V1 value=3.3}
-C {devices/vsource.sym} 360 -2040 0 0 {name=V2 value="sine(0 3.3 10Meq)"}
-C {devices/vsource.sym} 390 -2160 2 0 {name=V3 value=5}
-C {devices/vsource.sym} 360 -1940 0 0 {name=V4 value=0.9}
-C {devices/gnd.sym} 780 -1980 0 0 {name=l1 lab=GND}
-C {devices/lab_pin.sym} 760 -2080 2 0 {name=p2 sig_type=std_logic lab=VCC}
-C {devices/gnd.sym} 360 -1890 0 0 {name=l2 lab=GND}
-C {devices/gnd.sym} 390 -2110 0 0 {name=l3 lab=GND}
-C {devices/gnd.sym} 280 -2010 0 0 {name=l4 lab=GND}
-C {devices/gnd.sym} 350 -2010 0 0 {name=l5 lab=GND}
-C {devices/opin.sym} 810 -2060 0 0 {name=p9 lab=c3}
-C {devices/opin.sym} 810 -2040 0 0 {name=p10 lab=c2}
-C {devices/opin.sym} 810 -2020 0 0 {name=p11 lab=c1}
-C {devices/code_shown.sym} 490 -1930 0 0 {name=spice only_toplevel=false value="
+N 180 -50 200 -50 {
+lab=b3}
+N 180 -30 200 -30 {
+lab=b2}
+N 180 -10 200 -10 {
+lab=b1}
+C {Two_BitADC.sym} 30 -30 0 0 {name=x1}
+C {devices/vsource.sym} -350 -40 0 0 {name=V1 value=3.3}
+C {devices/vsource.sym} -280 -40 0 0 {name=V2 value=0.9}
+C {devices/vsource.sym} -460 50 0 0 {name=V3 value="sine(0 3.3 100000000)"}
+C {devices/vsource.sym} -280 60 0 0 {name=V4 value=2.8}
+C {devices/gnd.sym} -280 110 0 0 {name=l1 lab=GND}
+C {devices/gnd.sym} 200 40 0 0 {name=l2 lab=GND}
+C {devices/gnd.sym} -460 100 0 0 {name=l3 lab=GND}
+C {devices/gnd.sym} -350 10 0 0 {name=l4 lab=GND}
+C {devices/gnd.sym} -300 10 0 0 {name=l5 lab=GND}
+C {devices/code_shown.sym} -280 -260 0 0 {name=spice only_toplevel=false value="
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-.tran 10p 100n
+.tran 10p 20n
 .control
-run
-plot c3 c2 c1
+plot v(Vref) 
+plot v(Vin)
+plot v(Vb)
 save all
 .endc"}
-C {devices/lab_pin.sym} 440 -2040 0 0 {name=p4 sig_type=std_logic lab=BIAS}
-C {devices/lab_pin.sym} 440 -2080 0 0 {name=p5 sig_type=std_logic lab=INN}
-C {devices/lab_pin.sym} 440 -2060 0 0 {name=p6 sig_type=std_logic lab=INP}
-C {devices/ipin.sym} 360 -2080 0 0 {name=p1 lab=INN}
-C {devices/ipin.sym} 360 -1990 0 0 {name=p3 lab=BIAS}
-C {devices/ipin.sym} 390 -2200 2 0 {name=p7 lab=INP}
-C {devices/iopin.sym} 310 -2090 0 0 {name=p8 lab=VCC}
+C {devices/opin.sym} 200 -50 0 0 {name=p6 lab=b3}
+C {devices/opin.sym} 200 -30 0 0 {name=p7 lab=b2}
+C {devices/opin.sym} 200 -10 0 0 {name=p8 lab=b1}
+C {devices/ipin.sym} -260 -70 2 0 {name=p13 lab=Vb}
+C {devices/ipin.sym} -260 30 2 0 {name=p2 lab=Vref}
+C {devices/ipin.sym} -440 20 2 0 {name=p4 lab=Vin}
+C {devices/iopin.sym} -330 -70 0 0 {name=p3 lab=VCC}
+C {devices/lab_pin.sym} -150 -50 0 0 {name=p1 sig_type=std_logic lab=Vref}
+C {devices/lab_pin.sym} -150 -70 0 0 {name=p5 sig_type=std_logic lab=Vin}
+C {devices/lab_pin.sym} -150 -30 0 0 {name=p9 sig_type=std_logic lab=Vb}
+C {devices/lab_pin.sym} 200 -70 2 0 {name=p10 sig_type=std_logic lab=VCC}

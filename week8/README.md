@@ -36,5 +36,7 @@
 - replacing Caps with Resistors<br/>
 
 ![image](https://user-images.githubusercontent.com/53760504/232200074-a27ab34d-1f44-494b-9a96-2f19dfb17bd1.png)
+- There is Some Issue with this Connections<br/>
+ ![image](https://user-images.githubusercontent.com/53760504/232214577-afb2435e-b204-4b1a-aabe-7d3c988d59e8.png)
 
 

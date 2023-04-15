@@ -25,5 +25,9 @@
 
 ![ADC_out](https://user-images.githubusercontent.com/53760504/232196731-f6792f2a-0a36-4ce6-9a8e-afd1495b32e8.png)
 ![Two_Bit_ADC_10MHZ](https://user-images.githubusercontent.com/53760504/232196734-9d4113c2-bba9-49f5-9f2b-442952c39b28.png)
-
+- Error with Extrating The Precise value of Resistor from GDS file.<br/>
 ## DAC with Resistor Bridge Using Align
+
+|     GDS File                |      Lef file              |
+:----------------------------:|:---------------------------:
+![image](https://user-images.githubusercontent.com/53760504/232197349-6cc88cbc-bcd4-4e96-8e98-4795582ca077.png)|![image](https://user-images.githubusercontent.com/53760504/232197224-e1f26c43-a7d8-45e8-9b1d-c01b48a24a03.png)|

@@ -36,8 +36,8 @@
 
 - replacing Caps with Resistors<br/>
 
-![image](https://user-images.githubusercontent.com/53760504/232223493-41231969-de65-4824-a907-d31a4c8697e6.png)
+![image](https://user-images.githubusercontent.com/53760504/232226460-9b147dd2-f62e-4a85-91d1-0391fbd1d2ba.png)
 
-
+![image](https://user-images.githubusercontent.com/53760504/232226416-57c9f2ff-8597-4f84-8c8a-dbbb6a70c87e.png)
 
 

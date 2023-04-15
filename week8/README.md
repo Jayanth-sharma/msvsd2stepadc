@@ -28,6 +28,8 @@
 - Error with Extrating The Precise value of Resistor from GDS file.<br/>
 ## DAC with Resistor Bridge Using Align
 
+![image](https://user-images.githubusercontent.com/53760504/232207956-f4f4dd5e-4db3-47e1-837c-63dcdfa25a1a.png)
+
 |     GDS File                |      Lef file              |
 :----------------------------:|:---------------------------:
 ![image](https://user-images.githubusercontent.com/53760504/232197349-6cc88cbc-bcd4-4e96-8e98-4795582ca077.png)|![image](https://user-images.githubusercontent.com/53760504/232197224-e1f26c43-a7d8-45e8-9b1d-c01b48a24a03.png)|

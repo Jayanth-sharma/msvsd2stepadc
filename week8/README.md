@@ -31,3 +31,8 @@
 |     GDS File                |      Lef file              |
 :----------------------------:|:---------------------------:
 ![image](https://user-images.githubusercontent.com/53760504/232197349-6cc88cbc-bcd4-4e96-8e98-4795582ca077.png)|![image](https://user-images.githubusercontent.com/53760504/232197224-e1f26c43-a7d8-45e8-9b1d-c01b48a24a03.png)|
+- replacing Caps with Resistors<br/>
+
+![image](https://user-images.githubusercontent.com/53760504/232200074-a27ab34d-1f44-494b-9a96-2f19dfb17bd1.png)
+
+

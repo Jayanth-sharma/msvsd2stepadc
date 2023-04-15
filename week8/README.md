@@ -32,11 +32,12 @@
 
 |     GDS File                |      Lef file              |
 :----------------------------:|:---------------------------:
-![image](https://user-images.githubusercontent.com/53760504/232197349-6cc88cbc-bcd4-4e96-8e98-4795582ca077.png)|![image](https://user-images.githubusercontent.com/53760504/232197224-e1f26c43-a7d8-45e8-9b1d-c01b48a24a03.png)|
+![image](https://user-images.githubusercontent.com/53760504/232223420-e967528d-e58e-4121-9668-2f75c5550da4.png)|![image](https://user-images.githubusercontent.com/53760504/232223470-e8f9f76a-1db1-44a6-9430-7732db0d85eb.png)
+
 - replacing Caps with Resistors<br/>
 
-![image](https://user-images.githubusercontent.com/53760504/232200074-a27ab34d-1f44-494b-9a96-2f19dfb17bd1.png)
-- There is Some Issue with this Connections<br/>
- ![image](https://user-images.githubusercontent.com/53760504/232214577-afb2435e-b204-4b1a-aabe-7d3c988d59e8.png)
+![image](https://user-images.githubusercontent.com/53760504/232223493-41231969-de65-4824-a907-d31a4c8697e6.png)
+
+
 
 
